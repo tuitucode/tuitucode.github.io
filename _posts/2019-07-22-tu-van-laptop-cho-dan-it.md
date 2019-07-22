@@ -29,7 +29,7 @@ Khi bạn thực hiện đa tác vụ hoặc vừa mở Stack Overflow trên chr
 #### 1.3 Ổ cứng
 Ổ cứng cũng góp phần đẩy nhanh tốc độ của máy tính của bạn đấy, bạn nên chọn loại ổ cứng SSD thay vì HDD (mọi tác vụ sẽ được đẩy nhanh hơn nhiều), nếu bạn thấy dung lượng nó khá thấp có thể mua thêm ổ cứng HDD để lưu trữ hoặc dùng các loại lưu trữ đám mây (Google Drive, One Drive, Dropbox,..).
 
-### 1.4 GPU
+#### 1.4 GPU
 Trừ khi bạn lập trình đồ họa hoặc để chơi game, card đồ họa tích hợp (onboard) là đủ để bạn code rồi nha.
 
 ### 2. Màn hình
