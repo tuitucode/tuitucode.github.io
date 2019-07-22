@@ -6,7 +6,7 @@ categories: tutorial
 tags:
   - TuVan
   - Laptop
-image: assets/images/11.jpg
+image: assets/images/laptopforit.png
 description: Chọn laptop cho lập trình viên
 title: Tư vấn laptop cho dân IT
 ---
