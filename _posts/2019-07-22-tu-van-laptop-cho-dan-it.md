@@ -12,4 +12,4 @@ Mới bước vào con đường lập trình chắc hẳn ai cũng có 1 tá c�
 ### Mọi người thường chọn như thế nào
 Chắc hẳn khi bạn hỏi chọn laptop ra sao để học lập trình sẽ có nhiều câu trả lời quen thuộc "tránh dòng chip U", "chọn RAM cao tí", "chọn SSD đi"... Đa số mọi người đều đang nhắc đến **cấu hình** của laptop, đó là 1 trong những yếu tố cực quan trọng để chọn laptop nhưng nếu nó sở hữu 1 màn hình tệ hay trọng lượng khá nặng so với các bạn nữ thì sao? Chúng ta sẽ xem xét toàn diện về những đặc điểm cần chú ý ở 1 laptop là như thế nào.
 ### Những đặc điểm quan trọng của laptop
-
+#### 1. Cấu hình
