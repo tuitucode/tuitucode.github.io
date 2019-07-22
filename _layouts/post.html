@@ -96,8 +96,8 @@ post_class: post-template
 
             <!-- Post Categories -->
             <div class="after-post-cats">
-                <span>Danh mục: </span>
                 <ul class="tags mb-4">
+                    <span>Danh mục: </span>
                     {% assign sortedCategories = page.categories | sort %}
                     {% for category in sortedCategories %}
                     <li>
@@ -110,8 +110,8 @@ post_class: post-template
 
             <!-- Post Tags -->
             <div class="after-post-tags">
-                <span>Tag: </span>
                 <ul class="tags">
+                    <span>Tag: </span>
                     {% assign sortedTags = page.tags | sort %}
                     {% for tag in sortedTags %}
                     <li>
