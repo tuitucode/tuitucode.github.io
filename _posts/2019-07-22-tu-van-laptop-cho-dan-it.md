@@ -19,4 +19,9 @@ Chắc hẳn khi bạn hỏi chọn laptop ra sao để học lập trình sẽ 
 Đặc điểm là mọi người đều bàn luận đầu tiên đó chính là cấu hình của máy, chọn máy có cấu hình thấp có thể "kill" bạn trong những lúc chạy deadline hoặc hay xảy ra các vấn đề khiến bạn tập trong fix nó hơn là fix bug.
 
 #### 1.1 CPU
-Tốc độ xử lý càng nhanh càng tốt! Nên dùng bộ vi xử lý Core của Intel thế hệ thứ 2 trở lên (core i3, core i5,...) core i3 sẽ chỉ cho bạn lướt web, email các kiểu thôi còn để học lập trình bạn nên chọn core i5 trở lên, đa số hậu tố CPU hiện nay là U (vd: i5-3337U) do đây là con chip tiết kiệm điện, giá rẻ và đồng thời cũng cho hiệu năng thấp nên mình khuyên bạn (nếu có thể) thì nên chọn chip M trở lên
+Tốc độ xử lý càng nhanh càng tốt! Nên dùng bộ vi xử lý Core của Intel thế hệ thứ 2 trở lên (core i3, core i5,...thế hệ 2 có 4 số như i5-xxxxU) core i3 sẽ chỉ cho bạn lướt web, email các kiểu thôi còn để học lập trình bạn nên chọn core i5 trở lên, đa số hậu tố CPU hiện nay là U (vd: i5-3337U) do đây là con chip tiết kiệm điện, giá rẻ và đồng thời cũng cho hiệu năng thấp nên mình khuyên bạn (nếu có thể) thì nên chọn chip M trở lên và xung nhịp CPU từ 2.5Hz trở lên (bạn có thể dùng Turbo Boost để ép xung).
+
+#### 1.2 RAM
+Khi bạn thực hiện đa tác vụ hoặc vừa mở Stack Overflow trên chrome vừa bật IDE nặng như Visual Studio thì thật là 1 màn tra tấn với thanh RAM -> khi bị tràn RAM thì mọi thứ đều đơ rất nguy hiểm nên hãy chọn RAM 8gb trở lên.
+
+###
