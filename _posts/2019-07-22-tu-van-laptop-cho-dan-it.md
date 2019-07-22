@@ -38,5 +38,15 @@ Thường các bạn không quá để ý phần này nhưng hãy nghĩ xem bạ
 Ngoài những đặc điểm kể trên, chúng ta sẽ cùng điểm qua thêm 1 số đặc điểm phụ nhưng cũng góp phần không nhỏ để chọn 1 chiếc laptop.
 - **Trọng lượng:** Nếu bạn chọn phải 1 laptop có cấu hình khá cao thì thông thường trọng lượng của nó cũng khá nặng, vậy nên khi chọn xong hãy cân nhắc bạn có thể bỏ nó vào balo và đeo đi thoải mái nhé.
 - **Bàn phím:** Dòng Thinkpad của Lenovo có loại bàn phím bấm nảy rất tốt hay bàn phím cánh bướm của Macbook, tất cả là phụ thuộc vào trải nghiệm của bạn. Bạn có thể mua bàn phím ở ngoài để code sướng hơn.
+- **Thương hiệu:** chọn 1 thương hiệu không cần quá nổi tiếng nhưng hãy đảm bảo có chính sách bảo hành tốt cho bạn cũng như dễ thay thế sửa chữa phụ kiện khi bị hỏng.
 
 OK Done phần thuộc về laptop, phần tiếp theo đó chính là ngân sách của bạn, ngân sách phù hợp để có máy tốt (chính hãng + nhập khẩu + hàng cũ) nằm từ khoảng 9 triệu trở lên, nếu ngân sách bạn nhỏ hơn nhưng đang cần gấp máy tính thì bạn có thể hi sinh trọng lượng để mua máy trạm.
+## Một số laptop cho bạn
+Mình sẽ tổng hợp 1 số laptop phù hợp để các bạn có thể tham khảo
+- [Laptop Asus Vivobook S15 S530UA-BQ100T Core i5-8250U/Win10 (15.6 inch)](https://tiki.vn/laptop-asus-vivobook-s15-s530ua-bq100t-core-i5-8250u-win10-15-6-inch-gold-hang-chinh-hang-p4161199.html) Giá: 15 triệu.
+- [Macbook Air 2017 MQD32 (13.3 inch) ](https://tiki.vn/macbook-air-2017-mqd32-13-3-inch-hang-chinh-hang-p721995.html) Giá: 20 triệu.
+- [Laptop Lenovo ThinkPad Edge E480 20KN005GVA Core i5-8250U/Free Dos (14 inch)](https://tiki.vn/laptop-lenovo-thinkpad-edge-e480-20kn005gva-core-i5-8250u-free-dos-14-inch-hang-chinh-hang-black-p1746699.html)Giá: 14.2 triệu
+[Laptop Lenovo Ideapad 130-15IKB 81H7007JVN Core i5-8250U/ Dos (15.6" HD) ](https://tiki.vn/laptop-lenovo-ideapad-130-15ikb-81h7007jvn-core-i5-8250u-dos-15-6-hd-hang-chinh-hang-p11638856.html) Giá: 10 triệu.
+
+## Tổng kết
+Trên đây là một số cách chọn laptop theo quan điểm của mình, nó có thể đúng hoặc không đúng với từng cách suy nghĩ của các bạn nhưng mình mong nhờ đó mà bạn có thể chọn được laptop phù hợp nhất cho mình. Đừng quên theo dõi [Tui Tự Code](https://www.facebook.com/shareAboutIT/) để cập nhật những bài viết hay về IT nhé :) Pie~
