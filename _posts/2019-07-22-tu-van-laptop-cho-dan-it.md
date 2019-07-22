@@ -31,3 +31,12 @@ Khi bạn thực hiện đa tác vụ hoặc vừa mở Stack Overflow trên chr
 Trừ khi bạn lập trình đồ họa hoặc để chơi game, card đồ họa tích hợp (onboard) là đủ để bạn code rồi nha.
 
 ### 2. Màn hình
+Thường các bạn không quá để ý phần này nhưng hãy nghĩ xem bạn code trên máy tính bằng cách nào? Có phải là tay bấm phím và mắt nhìn màn hình không? Một màn hình tốt theo mình phải đạt chất lượng HD+ trở lên (tốt nhất là FullHD) với tấm nền IPS (hiển thị đẹp). Một số màn hình laptop còn có thể lọc ánh sáng xanh (Blue Light Filter) rất tốt đối với mắt, kích thước màn hình vừa phải (14 inch hoặc 15.6 inch) tùy theo sở thích của bạn.
+
+**Lưu ý:** một số màn hình còn có chức năng cảm ứng, theo trải nghiệm của mình thì chức năng này không cần thiết nên bạn có thể cân nhắc không chọn.
+## Đặc điểm khác
+Ngoài những đặc điểm kể trên, chúng ta sẽ cùng điểm qua thêm 1 số đặc điểm phụ nhưng cũng góp phần không nhỏ để chọn 1 chiếc laptop.
+- **Trọng lượng:** Nếu bạn chọn phải 1 laptop có cấu hình khá cao thì thông thường trọng lượng của nó cũng khá nặng, vậy nên khi chọn xong hãy cân nhắc bạn có thể bỏ nó vào balo và đeo đi thoải mái nhé.
+- **Bàn phím:** Dòng Thinkpad của Lenovo có loại bàn phím bấm nảy rất tốt hay bàn phím cánh bướm của Macbook, tất cả là phụ thuộc vào trải nghiệm của bạn. Bạn có thể mua bàn phím ở ngoài để code sướng hơn.
+
+OK Done phần thuộc về laptop, phần tiếp theo đó chính là ngân sách của bạn, ngân sách phù hợp để có máy tốt (chính hãng + nhập khẩu + hàng cũ) nằm từ khoảng 9 triệu trở lên, nếu ngân sách bạn nhỏ hơn nhưng đang cần gấp máy tính thì bạn có thể hi sinh trọng lượng để mua máy trạm.
