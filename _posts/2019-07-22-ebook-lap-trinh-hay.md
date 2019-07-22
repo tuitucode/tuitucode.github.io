@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: Tổng hợp ebook dạy lập trình cực hay
 author: ker
