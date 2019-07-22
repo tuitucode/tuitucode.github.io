@@ -18,4 +18,5 @@ Chắc hẳn khi bạn hỏi chọn laptop ra sao để học lập trình sẽ 
 
 Đặc điểm là mọi người đều bàn luận đầu tiên đó chính là cấu hình của máy, chọn máy có cấu hình thấp có thể "kill" bạn trong những lúc chạy deadline hoặc hay xảy ra các vấn đề khiến bạn tập trong fix nó hơn là fix bug.
 
-- CPU: Tốc độ xử lý càng nhanh càng tốt! Các bạn nên chọn chip i5 hoặc i7 (cho tốc độ xử lí nhanh hơn so với i3), đa số CPU hiện tại có hậu tố là U (vd: i5-3337U) -> đây là loại tiết kiệm điện, giá rẻ đồng nghĩa với hiệu năng khá yếu 
+#### 1.1 CPU: 
+Tốc độ xử lý càng nhanh càng tốt! Các bạn nên chọn chip i5 hoặc i7 (cho tốc độ xử lí nhanh hơn so với i3), đa số CPU hiện tại có hậu tố là U (vd: i5-3337U) -> đây là loại tiết kiệm điện, giá rẻ đồng nghĩa với hiệu năng khá yếu 
