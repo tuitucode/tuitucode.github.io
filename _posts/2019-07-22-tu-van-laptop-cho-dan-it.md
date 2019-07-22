@@ -24,4 +24,10 @@ Tốc độ xử lý càng nhanh càng tốt! Nên dùng bộ vi xử lý Core c
 #### 1.2 RAM
 Khi bạn thực hiện đa tác vụ hoặc vừa mở Stack Overflow trên chrome vừa bật IDE nặng như Visual Studio thì thật là 1 màn tra tấn với thanh RAM -> khi bị tràn RAM thì mọi thứ đều đơ rất nguy hiểm nên hãy chọn RAM 8gb trở lên.
 
-###
+#### 1.3 Ổ cứng
+Ổ cứng cũng góp phần đẩy nhanh tốc độ của máy tính của bạn đấy, bạn nên chọn loại ổ cứng SSD thay vì HDD (mọi tác vụ sẽ được đẩy nhanh hơn nhiều), nếu bạn thấy dung lượng nó khá thấp có thể mua thêm ổ cứng HDD để lưu trữ hoặc dùng các loại lưu trữ đám mây (Google Drive, One Drive, Dropbox,..).
+
+### 1.4 GPU
+Trừ khi bạn lập trình đồ họa hoặc để chơi game, card đồ họa tích hợp (onboard) là đủ để bạn code rồi nha.
+
+### 2. Màn hình
