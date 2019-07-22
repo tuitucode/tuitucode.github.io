@@ -13,4 +13,9 @@ Mới bước vào con đường lập trình chắc hẳn ai cũng có 1 tá c�
 Chắc hẳn khi bạn hỏi chọn laptop ra sao để học lập trình sẽ có nhiều câu trả lời quen thuộc "tránh dòng chip U", "chọn RAM cao tí", "chọn SSD đi"... Đa số mọi người đều đang nhắc đến **cấu hình** của laptop, đó là 1 trong những yếu tố cực quan trọng để chọn laptop nhưng nếu nó sở hữu 1 màn hình tệ hay trọng lượng khá nặng so với các bạn nữ thì sao? Tiền nong có phải là 1 vấn đề khác bạn cần quan tâm? Chúng ta sẽ xem xét toàn diện về những đặc điểm cần chú ý ở 1 laptop là như thế nào.
 ## Những đặc điểm quan trọng của laptop
 ### 1. Cấu hình
-Đặc điểm là mọi người đều bàn luận đầu tiên đó chính là cấu hình của máy
+
+![](https://www.tomshw.it/data/thumbs/2/1/3/1/9c66eb0e090bfb21dfb297e5a52cfbd6a-5e1e0f708edc4b23197f552fb74c8d157.jpg)
+
+Đặc điểm là mọi người đều bàn luận đầu tiên đó chính là cấu hình của máy, chọn máy có cấu hình thấp có thể "kill" bạn trong những lúc chạy deadline hoặc hay xảy ra các vấn đề khiến bạn tập trong fix nó hơn là fix bug.
+
+- CPU: Tốc độ xử lý càng nhanh càng tốt! Các bạn nên chọn chip i5 hoặc i7 (cho tốc độ xử lí nhanh hơn so với i3), đa số CPU hiện tại có hậu tố là U (vd: i5-3337U) -> đây là loại tiết kiệm điện, giá rẻ đồng nghĩa với hiệu năng khá yếu 
