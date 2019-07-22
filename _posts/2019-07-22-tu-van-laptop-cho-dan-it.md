@@ -3,7 +3,9 @@ published: true
 layout: post
 author: ker
 categories: tutorial
-tags: null
+tags:
+  - TuVan
+  - Laptop
 image: assets/images/11.jpg
 description: Chọn laptop cho lập trình viên
 title: Tư vấn laptop cho dân IT
