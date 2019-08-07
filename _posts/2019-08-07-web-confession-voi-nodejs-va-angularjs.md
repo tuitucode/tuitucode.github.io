@@ -20,6 +20,8 @@ Trong series này chúng ta sẽ viết 1 trang web hoạt động như confessi
 - Tìm hiểu về mongoDB - package mongoose (chúng ta sẽ dùng sever databse trên mongo atlas).
 
 Các kiến thức có thể tìm trên google, nếu bạn tự tin với khả năng vừa đọc vừa hiểu (hoặc tìm hiểu) thì vẫn tiếp tục được nhé.
+### Website confession là gì?
+website confession hoạt động như các trang confession trên facebook: cho người dùng nhập vào nội dung confession ở chế độ ẩn danh và đăng lên trên web cho người khác xem. Vậy sơ qua chúng ta sẽ tạo 1 nơi cho người dùng nhập nội dung và sau đó lưu trữ nó ở databse, khi muốn xem tất cả confession thì get dữ liệu từ database ra thôi.
 ### Tạo thư mục project
 Để tạo project mới: `npm init`
 
@@ -28,3 +30,4 @@ Cấu trúc thư mục project như sau:
 
 Chúng ta sẽ cài đặt 1 số package cần thiết: `express`, `ejs`, `morgan`, `body-parser`, `mongoose`.
 ## Code back-end với NodeJS
+
