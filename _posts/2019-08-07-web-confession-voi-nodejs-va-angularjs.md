@@ -21,6 +21,8 @@ Trong series này chúng ta sẽ viết 1 trang web hoạt động như confessi
 
 Các kiến thức có thể tìm trên google, nếu bạn tự tin với khả năng vừa đọc vừa hiểu (hoặc tìm hiểu) thì vẫn tiếp tục được nhé.
 ### Tạo thư mục project
+Để tạo project mới: `npm init`
+
 Cấu trúc thư mục project như sau:
 - HÌNH ẢNH
 
