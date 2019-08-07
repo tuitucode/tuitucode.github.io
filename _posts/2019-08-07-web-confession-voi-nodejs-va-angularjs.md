@@ -12,6 +12,4 @@ description: Xây dựng web app confession với NodeJS và AngularJS
 featured: true
 title: Xây dựng web confession với NodeJS và AngularJS
 ---
-## A New Post
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+Trong series này chúng ta sẽ viết 1 trang web hoạt động như confession sử dụng back-end là NodeJS và front-end là AngularJS, nào cùng bắt đầu thôi!
