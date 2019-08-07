@@ -150,5 +150,26 @@ Tiếp theo chúng ta sẽ tạo 1 view để trả về trang web cho user, ch�
 </footer>
 </body>
 </html>
-
 ```
+Chúng ta cũng tạo thêm 1 file **custom.css** trong thư mục **public/css** để tùy chỉnh css cho trang home:
+```css
+.noidung {
+    margin-top: 20px;
+}
+
+.pull-right {
+    float: right!important;
+}
+
+.noidungpost {
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    padding: 5px;
+}
+```
+Mình đã link custom.css trên vào sẵn trong home.ejs, nếu bạn muốn đổi tên file css thì vào home.ejs đổi luôn nhé!
+
+Ngoài ra mọi file ở thư mục **public** khi bạn muốn link vào (như js, css) thì phải thay public thành assets trong đường dẫn (như trong home.ejs).
+
+Đổi phần trả về khi get vào "/" ở file app.js như sau:
+		res.render("home");
