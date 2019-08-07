@@ -172,4 +172,5 @@ Mình đã link custom.css trên vào sẵn trong home.ejs, nếu bạn muốn �
 Ngoài ra mọi file ở thư mục **public** khi bạn muốn link vào (như js, css) thì phải thay public thành assets trong đường dẫn (như trong home.ejs).
 
 Đổi phần trả về khi get vào "/" ở file app.js như sau:
+
 		res.render("home");
