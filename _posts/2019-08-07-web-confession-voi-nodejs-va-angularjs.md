@@ -122,10 +122,9 @@ Tiếp theo chúng ta sẽ tạo 1 view để trả về trang web cho user, ch�
           <div class="col-md-12">
               <div class="card">
                   <div class="card-body" style="padding: 0">
-                          <textarea class="form-control input-lg p-text-area" name="text" id="dataIn" rows="2" placeholder='Bạn có ý tưởng gì?' maxlength="200"></textarea>                        
+                          <textarea class="form-control input-lg p-text-area" name="text" id="dataIn" rows="2" placeholder='Bạn muốn nói gì?' maxlength="200"></textarea>                        
                   </div>
                   <div class="card-footer">
-                    <span>Mail: </span><input class="noidungpost" type="text" placeholder="abc@mail.com"> 
                     <button class="btn btn-primary pull-right">Gửi</button>
                   </div>
               </div> 
@@ -137,7 +136,6 @@ Tiếp theo chúng ta sẽ tạo 1 view để trả về trang web cho user, ch�
                           <span>confession đầu tiên</span>
                         </div>
                         <div class="card-footer">
-                          <span>Mail liên hệ: test@mail.com</span>
                         </div>
                     </div>                
           </div>
