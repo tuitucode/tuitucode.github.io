@@ -54,3 +54,4 @@ app.listen(port, function() {
     console.log("App listening on port" + port);
 })
 ```
+Các bạn hãy truy cập vào `localhost:3000`
