@@ -53,4 +53,6 @@ app.listen(port, function() {
     console.log("App listening on port" + port);
 });
 ```
-Các bạn hãy truy cập vào `localhost:3000`
+Các bạn hãy truy cập vào `localhost:3000` nếu không có lỗi xảy ra các bạn sẽ thấy dòng "Hello NodeJS!", tiếp tục nào!
+
+Tiếp theo chúng ta sẽ tạo 1 view để trả về trang web cho user, chúng ta sẽ dùng `ejs`, tạo 1 file **home.ejs** trong mục **view** như sau:
