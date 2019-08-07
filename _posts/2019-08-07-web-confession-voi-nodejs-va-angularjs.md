@@ -20,5 +20,7 @@ Trong series này chúng ta sẽ viết 1 trang web hoạt động như confessi
 - Tìm hiểu về mongoDB - package mongoose (chúng ta sẽ dùng sever databse trên mongo atlas).
 Các kiến thức có thể tìm trên google, nếu bạn tự tin với khả năng vừa đọc vừa hiểu (hoặc tìm hiểu) thì vẫn tiếp tục được nhé.
 ### Tạo thư mục project
-
+Cấu trúc thư mục project như sau:
+- HÌNH ẢNH
+Chúng ta sẽ cài đặt 1 số package cần thiết: `express`, `ejs`, `morgan`, `body-parser`, `mongoose`.
 ## Code back-end với NodeJS
