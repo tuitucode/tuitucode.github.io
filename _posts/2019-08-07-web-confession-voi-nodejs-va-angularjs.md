@@ -31,4 +31,26 @@ Cấu trúc thư mục project như sau:
 Chúng ta sẽ cài đặt 1 số package cần thiết: `express`, `ejs`, `morgan`, `body-parser`, `mongoose`.
 ## Code back-end với NodeJS
 Đầu tiên chúng ta code ở file `app.js`, config 1 số thứ cơ bản và start server:
+```javascript
+var express = require("express");
+var bodyparser = require("body-parser");
+var morgan = require("morgan"); //log các request đến thay vì dùng middleware
+var app = express();
+var port = process.env.PORT || 3000; //set PORT
 
+//custom module
+var route = require('./route/router');
+
+app.use("/assets", express.static(__dirname + "/public"));
+app.use(bodyparser.json());
+app.use(bodyparser.urlencoded({extended:true}));
+app.use(morgan("dev"));
+
+app.set("view engine", "ejs");
+
+route(app);
+
+app.listen(port, function() {
+    console.log("App listening on port" + port);
+})
+```
