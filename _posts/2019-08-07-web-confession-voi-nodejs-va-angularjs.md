@@ -30,4 +30,4 @@ Cấu trúc thư mục project như sau:
 
 Chúng ta sẽ cài đặt 1 số package cần thiết: `express`, `ejs`, `morgan`, `body-parser`, `mongoose`.
 ## Code back-end với NodeJS
-
+Đầu tiên chúng ta code ở file `app.js`
