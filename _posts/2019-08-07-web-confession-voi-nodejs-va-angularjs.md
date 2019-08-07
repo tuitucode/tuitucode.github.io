@@ -173,3 +173,5 @@ Ngoài ra mọi file ở thư mục **public** khi bạn muốn link vào (như 
 
 		res.render("home");
 OK chạy lại server bạn sẽ thấy được giao diện confession mà mình đã tạo và render thông qua ejs.
+- HÌNH ẢNH
+
