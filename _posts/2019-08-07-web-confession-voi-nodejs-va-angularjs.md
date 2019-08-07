@@ -175,3 +175,5 @@ Ngoài ra mọi file ở thư mục **public** khi bạn muốn link vào (như 
 OK chạy lại server bạn sẽ thấy được giao diện confession mà mình đã tạo và render thông qua ejs.
 - HÌNH ẢNH
 
+### Kết nối đến MongoDB Atlas với mongoose
+Tiếp theo chúng ta sẽ kết nối đến database, chúng ta sẽ dùng MongoDB thông qua server của Atlas
