@@ -3,13 +3,11 @@ published: true
 layout: post
 title: Tổng hợp ebook dạy lập trình cực hay
 author: ker
-categories: tutorial
+categories: sharing
 tags:
-  - red
-  - yellow
+  - ebook
 image: assets/images/11.jpg
 description: Tổng hợp ebook lập trình hay cho lập trình viên
-featured: true
 ---
 Mới học lập trình thì việc đi tìm tài liệu khá là đau đầu đúng không nào? Vậy hôm nay mình sẽ share 1 loại tài liệu đặc biệt có đủ mọi ngôn ngữ lập trình mà các bạn muốn học và đặc biệt là tài liệu được viết rất công phu, rất gọn và nhìn cực kì cuốn hút và clean (góp 1 phần nhỏ cho sự thích đọc của các bạn) và đặc biệt là hoàn toàn Miễn phí.
 

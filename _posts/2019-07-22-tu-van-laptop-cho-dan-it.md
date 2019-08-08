@@ -2,7 +2,7 @@
 published: true
 layout: post
 author: ker
-categories: tutorial
+categories: sharing
 tags:
   - TuVan
   - Laptop
