@@ -215,4 +215,19 @@ module.exports = {
 ```
 Tiếp theo là phần code trong web.
 #### Thiết lập thao tác database từ web
-Tạo
+Tạo file indexModel.js trong api -> model để config model cho database như sau:
+```javascript
+var mongoose = require("mongoose");
+
+var Schema = mongoose.Schema;
+
+var indexSchema = new Schema( {
+    noidung : String,
+    stt: Number,
+})
+
+var Confess = mongoose.model("iconfession", indexSchema, "confess");
+
+module.exports = Partner;
+```
+Chúng ta định nghĩa 1 hàng dữ liệu được lưu với các trường `stt`, `noidung`. Nếu bạn nghĩ "làm thế nào để đặt stt làm khóa chính khi viết như vậy?" thì câu trả lời là 2 trường mình tạo đều không để làm khóa chính, khóa chính mặc định sẽ được tạo ra ở trường `_id`. Vậy tạo sao không lấy nó làm số thứ tự luôn? Vì trường `_id` tạo ra 1 dãy  kí tự rất "lộn xộn" chứ không phải bắt đầu từ số 0 và hiện tại mình cũng chưa tìm ra cách convert nó sang kiểu dễ nhìn nên mình tạo trường `stt`. Tiếp tục nào!
