@@ -177,6 +177,7 @@ OK chạy lại server bạn sẽ thấy được giao diện confession mà mì
 - HÌNH ẢNH
 
 ### Kết nối đến MongoDB Atlas với mongoose
+#### Thiết lập ở MongoDB Atlas
 Tiếp theo chúng ta sẽ kết nối đến database, ở đây mình dùng MongoDB trên Atlas. Đầu tiên các bạn hãy tạo 1 tài khoản trên [MongoDB Atlas](https://www.mongodb.com/)
 
 - HÌNH ẢNH
@@ -194,7 +195,7 @@ Tiếp đến chúng ta sẽ cần chuỗi kết nối để web tiến hành tr
 
 		mongodb+srv://<username>:<password>@cluster0-hquon.mongodb.net/
         
-Để có được user và password, bạn vào phần **SECURITY** -> **Database Access** sau đó nhập username và password bạn muốn tạo vào. Vì thông tin này quan trọng và cần ghi nhớ, mình sẽ tạo file **config.json** (trong config) để lưu trữ nó lại dưới dạng như sau:
+Để có được user và password, bạn vào phần **SECURITY** -> **Database Access** sau đó nhập username và password bạn muốn tạo vào, phần User Privileges các bạn chọn cái đầu hoặc thứ 2 cũng được. Vì thông tin này quan trọng và cần ghi nhớ, mình sẽ tạo file **config.json** (trong config) để lưu trữ nó lại dưới dạng như sau:
 ```javascript
 {
     "username": <username>,
@@ -212,3 +213,5 @@ module.exports = {
     }
 }
 ```
+Tiếp theo là phần code trong web.
+#### Thiết lập thao tác database từ web
