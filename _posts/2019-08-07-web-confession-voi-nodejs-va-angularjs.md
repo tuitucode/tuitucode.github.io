@@ -192,4 +192,23 @@ Khác với SQL, NoSQL không buộc chúng ta phải cho biết trước các t
 
 Tiếp đến chúng ta sẽ cần chuỗi kết nối để web tiến hành truy cập đến, chuỗi kết nối có dạng
 
-		mongodb+srv://${configValues.username}:${configValues.password}@cluster0-hquon.mongodb.net/
+		mongodb+srv://<username>:<password>@cluster0-hquon.mongodb.net/
+        
+Để có được user và password, bạn vào phần **SECURITY** -> **Database Access** sau đó nhập username và password bạn muốn tạo vào. Vì thông tin này quan trọng và cần ghi nhớ, mình sẽ tạo file **config.json** (trong config) để lưu trữ nó lại dưới dạng như sau:
+```javascript
+{
+    "username": <username>,
+    "password": <password>
+}
+```
+OK sau khi có file json, chúng ta tạo tiếp function để trả về chuỗi kết nối - **db.js**
+```javascript
+var configValues = require("./config");
+
+module.exports = {
+    AccessDatabase: function () {
+
+        return `mongodb+srv://${configValues.username}:${configValues.password}@cluster0-hquon.mongodb.net/`;
+    }
+}
+```
