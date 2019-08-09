@@ -283,3 +283,5 @@ module.exports = function (app) {
 }
 ```
 Các bạn chú ý đoạn code mình dùng estimatedDocumentCount(), đây là function trả về số lượng dòng dữ liệu có trong collection. Mình sử dụng promise để hứng giá trị trả về (lưu trong biến count) sau đó +1 để tạo ra stt tiếp theo cho confess. Bạn có thể tìm hiểu thêm về estimatedDocumentCount và promise trên google.
+### Vận hành thử API
+Chúng ta sẽ thử những API vừa tạo có hoạt động được không, tạo seed.js trong **api** -> **seed**
