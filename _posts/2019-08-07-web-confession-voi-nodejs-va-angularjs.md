@@ -178,3 +178,18 @@ OK chạy lại server bạn sẽ thấy được giao diện confession mà mì
 
 ### Kết nối đến MongoDB Atlas với mongoose
 Tiếp theo chúng ta sẽ kết nối đến database, ở đây mình dùng MongoDB trên Atlas. Đầu tiên các bạn hãy tạo 1 tài khoản trên [MongoDB Atlas](https://www.mongodb.com/)
+
+- HÌNH ẢNH
+
+Sau khi có tài khoản, đăng nhập vào và tiến hành tạo database: **ATLAS** -> **Clusters** -> **Collections** -> **Create Database**.
+
+- Database name (tên database): confession
+- Collection name (giống như đặt tên bảng ở SQL): confess
+
+- HÌNH ẢNH
+
+Khác với SQL, NoSQL không buộc chúng ta phải cho biết trước các thuộc tính trong collection (như table của SQL).
+
+Tiếp đến chúng ta sẽ cần chuỗi kết nối để web tiến hành truy cập đến, chuỗi kết nối có dạng
+
+		mongodb+srv://${configValues.username}:${configValues.password}@cluster0-hquon.mongodb.net/
