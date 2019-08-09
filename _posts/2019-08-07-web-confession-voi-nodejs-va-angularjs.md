@@ -172,8 +172,9 @@ Ngoài ra mọi file ở thư mục **public** khi bạn muốn link vào (như 
 Đổi phần trả về khi get vào "/" ở file app.js như sau:
 
 		res.render("home");
+        
 OK chạy lại server bạn sẽ thấy được giao diện confession mà mình đã tạo và render thông qua ejs.
 - HÌNH ẢNH
 
 ### Kết nối đến MongoDB Atlas với mongoose
-Tiếp theo chúng ta sẽ kết nối đến database, chúng ta sẽ dùng MongoDB thông qua server của Atlas
+Tiếp theo chúng ta sẽ kết nối đến database, ở đây mình dùng MongoDB trên Atlas. Đầu tiên các bạn hãy tạo 1 tài khoản trên [MongoDB Atlas](https://www.mongodb.com/)
