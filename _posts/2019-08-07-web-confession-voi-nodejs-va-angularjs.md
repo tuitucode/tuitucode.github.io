@@ -284,3 +284,37 @@ module.exports = function (app) {
 ```
 Các bạn chú ý đoạn code mình dùng estimatedDocumentCount(), đây là function trả về số lượng dòng dữ liệu có trong collection. Mình sử dụng promise để hứng giá trị trả về (lưu trong biến count) sau đó +1 để tạo ra stt tiếp theo cho confess. Bạn có thể tìm hiểu thêm về estimatedDocumentCount và promise trên google.
 ### AngularJS
+Back-end đã xong! Giờ chúng ta sẽ code phần front-end với AngularJS, đầu tiên tạo app.js trong public -> main như sau
+```javascript
+var app = angular.module("app.confess", ["xeditable", "ngSanitize"]);
+
+app.controller("indexController", ['$scope', 'servConfess', function ($scope, servConfess) {
+
+    $scope.appName = "iConfession";
+    $scope.ConfessionList = [];
+
+    //load data from API
+    servConfess.getConfess().success(function (data) {
+        //
+        data.forEach(function(obj) {
+            obj.noidung = obj.noidung.replace(/[\n\r]/g, '<br>');
+        });
+
+        $scope.ConfessionList = data;
+    })
+
+    $scope.formData = {};
+
+    $scope.createConfess = function () {
+        var finder = {
+            noidung : $scope.formData.noidung,
+        }
+
+        servTodo.createConfess(confess).success(function (data) {
+            $scope.findList = data;
+            $scope.formData.noidung = "";
+        })
+
+    }
+}]);
+```
