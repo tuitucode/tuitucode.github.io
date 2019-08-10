@@ -295,7 +295,8 @@ app.controller("indexController", ['$scope', 'servConfess', function ($scope, se
 
     //load data from API
     servConfess.getConfess().success(function (data) {
-        //
+      
+        // hiện cách dấu xuống dòng chính xác khi binding
         data.forEach(function(obj) {
             obj.noidung = obj.noidung.replace(/[\n\r]/g, '<br>');
         });
@@ -310,8 +311,8 @@ app.controller("indexController", ['$scope', 'servConfess', function ($scope, se
             noidung : $scope.formData.noidung,
         }
 
-        servTodo.createConfess(confess).success(function (data) {
-            $scope.findList = data;
+        servConfess.createConfess(confess).success(function (data) {
+            $scope.ConfessionList = data;
             $scope.formData.noidung = "";
         })
 
