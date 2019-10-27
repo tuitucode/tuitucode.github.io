@@ -19,6 +19,7 @@ Hi~! Nhân lúc làm app với React Native và Firebase nên trong bài viết 
 Push Notification là một dạng tin nhắn đơn giản xuất hiện cùng với thông báo của hệ thống hoặc giống như tin nhắn bật lên -tuỳ thuộc vào nền tảng.
 Định nghĩa khá đơn giản và bạn chắc cũng đã gặp rất nhiều khi sử dụng smartphone, dưới đây là hình ảnh về nó:
 	- Ảnh
+
 Tiếp theo chúng ta cùng tìm hiểu 1 chút về lịch sử ra đời của nó.
 #### Lịch sử phát triển
 - 6/2019: Apple ra mắt Apple Push Notification Service (APNs), dịch vụ push notification đầu tiên.
