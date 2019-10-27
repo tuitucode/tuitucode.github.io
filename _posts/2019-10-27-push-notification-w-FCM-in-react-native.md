@@ -66,7 +66,9 @@ Cụ thể hơn, chúng ta có 3 cách làm sau:
 	- Ảnh 2
 	- Ảnh 3
     
-Phần lý thuyết đã xong, Giờ hãy bật Editor lên và code thôi!
+Trong bài này mình sẽ thực hiện cách thứ 3, cách 1 và 2 có hơi đặc thù hơn nên sẽ được tách ra thành các bài viết khác để dễ theo dõi.
+
+Phew~! Phần lý thuyết đã xong, Giờ hãy bật Editor lên và code thôi!
 ### Coding
 Tổng quan 1 chút: mình sẽ dùng React Native bản 0.6 để code app và FCM bản 20.0 để push notification.
 
