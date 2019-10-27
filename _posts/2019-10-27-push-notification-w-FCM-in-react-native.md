@@ -81,5 +81,45 @@ Tổng quan 1 chút: mình sẽ dùng React Native bản 0.6 để code app và 
 - Tạo và config trên Firebase: xem tại ĐÂY
 
 #### Tiến hành
-Mở code của app lên, làm theo những bước sau
 ##### Bước 1: Cài đặt Firebase Module
+Trong ``android/app/build.gradle`` thêm:
+```
+dependencies {
+  // ...
+  implementation "com.google.firebase:firebase-messaging:20.0.0"
+}
+```
+Trong ``android/app/src/main/java/com/[app name]/MainApplication.java`` thêm:
+```
+// ...
+import com.facebook.react.ReactApplication; //<- Dòng này
+import io.invertase.firebase.messaging.RNFirebaseMessagingPackage;//<- Dòng này
+
+public class MainApplication extends Application implements ReactApplication {
+    // ...
+
+    @Override
+    protected List<ReactPackage> getPackages() {
+      @SuppressWarnings("UnnecessaryLocalVariable")
+      List<ReactPackage> packages = new PackageList(this).getPackages();
+      // Packages that cannot be autolinked yet can be added manually here, for example:
+      // packages.add(new MyReactNativePackage());
+      packages.add(new RNFirebaseMessagingPackage());//<- Dòng này
+      return packages;
+    }
+  };
+  // ...
+}
+```
+Trong ``android/app/src/main/AndroidManifest.xml`` thêm:
+```
+<application ...>
+
+  <service android:name="io.invertase.firebase.messaging.RNFirebaseMessagingService">
+    <intent-filter>
+      <action android:name="com.google.firebase.MESSAGING_EVENT" />
+    </intent-filter>
+  </service>
+
+</application>
+```
