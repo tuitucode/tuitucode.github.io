@@ -33,6 +33,6 @@ Push Notification cung cấp sự tiện lợi và nhiều giá trị cho ngư�
 Còn về phía nhà xuất bản ứng dụng:
 - Cách để nói chuyện trực tiếp với người dùng.
 - Không bị cho vào spam như mail, tăng tỉ lệ tương tác.
-- Nhắc nhở người dùng sử dụng ứng dụng cho dù ứng dụng có được mở hoặc không
-Quảng cáo, thông báo cho người dùng.
+- Nhắc nhở người dùng sử dụng ứng dụng cho dù ứng dụng có được mở hoặc không.
+- Quảng cáo, thông báo cho người dùng.
 
