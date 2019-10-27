@@ -140,3 +140,4 @@ Trong ``android/app/src/main/AndroidManifest.xml`` thêm:
 </application>
 ```
 Xong, các bạn build app xem có bị lỗi gì không, không lỗi thì tiếp tục nào (có lỗi thì tra google hoặc comment bên dưới ngay nhé). À đến đây là các bạn có thể test sơ sơ được rồi :). Để test các bạn làm như sau:
+- Vào 
