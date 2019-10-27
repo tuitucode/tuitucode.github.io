@@ -94,6 +94,7 @@ Trong ``android/app/src/main/java/com/[app name]/MainApplication.java`` thêm:
 // ...
 import com.facebook.react.ReactApplication; //<- Dòng này
 import io.invertase.firebase.messaging.RNFirebaseMessagingPackage;//<- Dòng này
+import io.invertase.firebase.notifications.RNFirebaseNotificationsPackage;//<- Dòng này
 
 public class MainApplication extends Application implements ReactApplication {
     // ...
@@ -105,6 +106,7 @@ public class MainApplication extends Application implements ReactApplication {
       // Packages that cannot be autolinked yet can be added manually here, for example:
       // packages.add(new MyReactNativePackage());
       packages.add(new RNFirebaseMessagingPackage());//<- Dòng này
+      packages.add(new RNFirebaseNotificationsPackage());//<- Dòng này
       return packages;
     }
   };
@@ -113,6 +115,13 @@ public class MainApplication extends Application implements ReactApplication {
 ```
 Trong ``android/app/src/main/AndroidManifest.xml`` thêm:
 ```
+<manifest ...>
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+  <uses-permission android:name="android.permission.VIBRATE" />
+  
+//...
+
 <application ...>
 
   <service android:name="io.invertase.firebase.messaging.RNFirebaseMessagingService">
@@ -120,6 +129,14 @@ Trong ``android/app/src/main/AndroidManifest.xml`` thêm:
       <action android:name="com.google.firebase.MESSAGING_EVENT" />
     </intent-filter>
   </service>
+  
+  <service android:name="io.invertase.firebase.messaging.RNFirebaseBackgroundMessagingService" />
+  
+  <activity
+  ...
+  android:launchMode="singleTop"
+>
 
 </application>
 ```
+Xong, các bạn build app xem có bị lỗi gì không nhé, không lỗi thì tiếp tục nào (có lỗi thì tra google hoặc comment bên dưới để mình giúp)
