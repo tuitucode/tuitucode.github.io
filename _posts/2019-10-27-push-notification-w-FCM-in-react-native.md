@@ -32,6 +32,7 @@ Và phần quan trọng nhất: nó dùng để làm gì?
 Push Notification cung cấp sự tiện lợi và nhiều giá trị cho người dùng. Ví dụ người dùng có thể nhận được:
 - Kết quả bóng đá và tin tức ngay trên màn hình khóa.
 - Các thông báo từ ứng dụng khác (thông báo tin nhắn đến, bài viết mới,...).
+
 Còn về phía nhà xuất bản ứng dụng:
 - Cách để nói chuyện trực tiếp với người dùng.
 - Không bị cho vào spam như mail, tăng tỉ lệ tương tác.
