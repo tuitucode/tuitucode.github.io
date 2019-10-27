@@ -22,6 +22,7 @@ Push Notification là một dạng tin nhắn đơn giản xuất hiện cùng v
 Tiếp theo chúng ta cùng tìm hiểu 1 chút về lịch sử ra đời của nó.
 #### Lịch sử phát triển
 - 6/2019: Apple ra mắt Apple Push Notification Service (APNs), dịch vụ push notification đầu tiên.
-- 5/2010: Google phát hành dịch vụ riêng: Google Cloud to Device Messaging (C2DM)
+- 5/2010: Google phát hành dịch vụ riêng: Google Cloud to Device Messaging (C2DM).
 - 5/2013: Google giới thiệu ‘rich notification’. Rich notification có thể chứa ảnh, các nút hành động – giúp người dùng thực hiện hành động ngay lập tức từ notification: phát nhạc, mở ứng dụng,…
-9/2014: Apple thêm các nút tương tác. Các nút này cho phép người dung gửi phản hồi ngay lập tức cho nhà xuất bản ứng dụng, ngay sau đó ra mắt push notification trên Apple Watch
+9/2014: Apple thêm các nút tương tác. Các nút này cho phép người dung gửi phản hồi ngay lập tức cho nhà xuất bản ứng dụng, ngay sau đó ra mắt push notification trên Apple Watch.
+Và phần quan trọng nhất: nó dùng để làm gì?
