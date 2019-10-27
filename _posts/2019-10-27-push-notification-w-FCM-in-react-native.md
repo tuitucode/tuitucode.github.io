@@ -47,3 +47,7 @@ Hiện tại dịch vụ mà Firebase cung cấp rất nhiều nên bạn có th
 	- Ảnh
 Với bài viết này chúng ta sẽ cùng vọc Cloud Messaging - nằm trong nhóm Grow, nó là...
 ### Firebase Cloud Messaging
+Tóm gọn trong 3 dòng súc tích:
+- Firebase Cloud Messaging(FCM) là phiên bản mới của Google Cloud Messaging(GCM). 
+- Đây là một giải pháp nhắn tin đám mây đa nền tảng. 
+- Bạn có thể sử dụng Firebase Cloud Messaging cho bất kỳ loại thiết bị người dùng cuối nào bao gồm iOS, Android hoặc thậm chí Web mà không mất phí.
