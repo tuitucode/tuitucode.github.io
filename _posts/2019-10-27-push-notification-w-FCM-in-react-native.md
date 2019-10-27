@@ -76,5 +76,5 @@ Tổng quan 1 chút: mình sẽ dùng React Native bản 0.6 để code app và 
 **Chuẩn bị**
 - React native app: ``react-native init DemoPushNotification``
 - Cài đặt dependencies:
-		- react-native-firebase: ``npm install react-native-firebase --save``
+	- react-native-firebase: ``npm install react-native-firebase --save``
 
