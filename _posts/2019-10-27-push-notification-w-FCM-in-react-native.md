@@ -25,6 +25,7 @@ Tiếp theo chúng ta cùng tìm hiểu 1 chút về lịch sử ra đời của
 - 5/2010: Google phát hành dịch vụ riêng: Google Cloud to Device Messaging (C2DM).
 - 5/2013: Google giới thiệu ‘rich notification’. Rich notification có thể chứa ảnh, các nút hành động – giúp người dùng thực hiện hành động ngay lập tức từ notification: phát nhạc, mở ứng dụng,…
 9/2014: Apple thêm các nút tương tác. Các nút này cho phép người dung gửi phản hồi ngay lập tức cho nhà xuất bản ứng dụng, ngay sau đó ra mắt push notification trên Apple Watch.
+
 Và phần quan trọng nhất: nó dùng để làm gì?
 #### Lợi ích
 Push Notification cung cấp sự tiện lợi và nhiều giá trị cho người dùng. Ví dụ người dùng có thể nhận được:
@@ -35,4 +36,4 @@ Còn về phía nhà xuất bản ứng dụng:
 - Không bị cho vào spam như mail, tăng tỉ lệ tương tác.
 - Nhắc nhở người dùng sử dụng ứng dụng cho dù ứng dụng có được mở hoặc không.
 - Quảng cáo, thông báo cho người dùng.
-
+Nếu bạn không có ý định code về 
