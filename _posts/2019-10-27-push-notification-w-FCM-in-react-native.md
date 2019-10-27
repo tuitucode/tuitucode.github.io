@@ -78,4 +78,6 @@ Tổng quan 1 chút: mình sẽ dùng React Native bản 0.6 để code app và 
 - Cài đặt dependencies:
 	- react-native-firebase: xem cách thiết lập tại ĐÂY
 
+- Tạo và config trên Firebase: xem tại ĐÂY
+
 
