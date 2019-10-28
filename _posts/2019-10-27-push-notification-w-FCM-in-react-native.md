@@ -50,12 +50,13 @@ Nguồn: internet
 Firebase là một dịch vụ hệ thống backend được Google cung cấp sẵn cho ứng dụng Mobile của bạn, với Firebase bạn có thể rút ngắn thời gian phát triển, triển khai và thời gian mở rộng quy mô của ứng dụng mobile mình đang phát triển. Hỗ trợ cả 2 nền tảng Android và IOS, Firebase mạnh mẽ, đa năng, bảo mật và là dịch vụ cần thiết đầu tiên để xây dưng ứng dụng với hàng triệu người sử dụng. Link trang chủ: [Firebase](firebase.com "link đến firebase")
 
 Hiện tại dịch vụ mà Firebase cung cấp rất nhiều nên bạn có thể tha hồ vọc vạch, với Firebase việc bạn cần làm chỉ là tập trung code cho tốt phía client thôi.
-![introduction about firebase]({{site.baseurl}}/https://miro.medium.com/max/3200/1*IF0MJ5hKKrwCWo5ug_LY2w.png)
+![introduction about firebase](https://miro.medium.com/max/3200/1*IF0MJ5hKKrwCWo5ug_LY2w.png)
 
 Nguồn: internet
 
 Với bài viết này chúng ta sẽ cùng vọc Cloud Messaging - nằm trong nhóm Grow, nó là...
 ### Firebase Cloud Messaging
+
 Tóm gọn trong 3 dòng súc tích:
 - Firebase Cloud Messaging(FCM) là phiên bản mới của Google Cloud Messaging(GCM). 
 - Đây là một giải pháp nhắn tin đám mây đa nền tảng. 
