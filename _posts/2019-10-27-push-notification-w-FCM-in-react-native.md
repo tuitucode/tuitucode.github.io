@@ -377,4 +377,10 @@ async requestPermission() {
 
 2. Hàm bắt sự kiện (hàm ``createNotificationListeners``)
 - Tạo channel ()
+```
+const channel = new firebase.notifications.Android.Channel('test-channel', 'Test Channel', firebase.notifications.Android.Importance.Max)
+      .setDescription('My apps test channel');
+      console.log('my chanel id = ', channel);
+    firebase.notifications().android.createChannel(channel);
+```
 - Hàm bắt sự kiện chính của chúng ta đây: ``firebase.notifications().onNotification``, hàm này bắt sự kiện khi có notification được push đến (và app đang ở trạng thái Foreground) cụ thể ở đây mình cho show alert nội dung notificaion được push đến. Bạn có thể xem tại ĐÂY để biết được các hàm bắt sự kiện khác.
