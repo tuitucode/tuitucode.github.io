@@ -97,9 +97,9 @@ Phew~! Phần lý thuyết đã xong, Giờ hãy bật Editor lên và code thô
 Tổng quan 1 chút: mình sẽ dùng React Native bản 0.6 để code app và FCM bản 20.0 để push notification.
 
 #### Chuẩn bị
-- React native app: xem cách tạo app tại ĐÂY
+- React native app: xem cách tạo app tại [ĐÂY](https://facebook.github.io/react-native/docs/getting-started)
 - Cài đặt dependencies:
-	- react-native-firebase: xem cách thiết lập tại ĐÂY
+	- react-native-firebase: xem cách thiết lập tại [ĐÂY](https://rnfirebase.io/docs/v5.x.x/getting-started)
 
 - Tạo và config trên Firebase: xem tại ĐÂY
 
