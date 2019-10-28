@@ -415,3 +415,9 @@ this.notificationListener = firebase.notifications().onNotification((noti) => {
 ```
 
 Done~! Vậy là chúng ta đã vọc sơ qua FCM và biết cách sử dụng rồi, phát triển nó theo bất kì cách nào bạn thích và xã hội cho phép vì nó free mà ;)
+
+#### Vấn đề với Head-up Notification
+Mình sử dụng cả Android 6.0 và 5.1 thì đều bị lỗi không hiển thị được notification đến theo dạng popup. Mình có tham khảo qua doc của android [https://developer.android.com/guide/topics/ui/notifiers/notifications#Heads-up](https://developer.android.com/guide/topics/ui/notifiers/notifications#Heads-up) và cũng thử nhiều solution trên Stack Overflow nhưng cũng vô vọng, nếu bạn giải quyết được thì share cách cho mọi người nhé ;)
+
+Nguồn tham khảo: 
+[https://rnfirebase.io/docs/v5.x.x/](https://rnfirebase.io/docs/v5.x.x/)
