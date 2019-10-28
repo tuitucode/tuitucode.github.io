@@ -151,3 +151,9 @@ Bạn sẽ được chuyển đến Notification Composer - bộ công cụ so�
 	- Ảnh
 
 Những phần khác bạn có thể tìm hiểu tại ĐÂY, còn bây giờ ấn **Review** để thấy được tổng quan phần config mà bạn vừa làm
+	- Ảnh
+
+Ấn **Publish**, nếu có thông báo success nhìn đến phần notification sẽ được như thế này
+	- Ảnh
+
+Giống như Youtube, Zalo,... các kiểu rồi đó :)
