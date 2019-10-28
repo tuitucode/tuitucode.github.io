@@ -56,6 +56,9 @@ Nguồn: internet
 
 Với bài viết này chúng ta sẽ cùng vọc Cloud Messaging - nằm trong nhóm Grow, nó là...
 ### Firebase Cloud Messaging
+![Firebase Cloud Messaging]({{site.baseurl}}/https://i.ytimg.com/vi/sioEY4tWmLI/maxresdefault.jpg)
+
+Nguồn: internet
 
 Tóm gọn trong 3 dòng súc tích:
 - Firebase Cloud Messaging(FCM) là phiên bản mới của Google Cloud Messaging(GCM). 
