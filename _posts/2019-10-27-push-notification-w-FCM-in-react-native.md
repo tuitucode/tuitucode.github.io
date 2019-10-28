@@ -18,7 +18,7 @@ Hi~! Nhân lúc làm app với React Native và Firebase nên trong bài viết 
 ### Push notification là gì?
 Push Notification là một dạng tin nhắn đơn giản xuất hiện cùng với thông báo của hệ thống hoặc giống như tin nhắn bật lên -tuỳ thuộc vào nền tảng.
 Định nghĩa khá đơn giản và bạn chắc cũng đã gặp rất nhiều khi sử dụng smartphone, dưới đây là hình ảnh về nó:
-![Push notification]({{site.baseurl}}/http://3.bp.blogspot.com/-aLwSLknpKuo/XbcJydQQT4I/AAAAAAAAAm0/LchaxItJjUMSOHcCy91sEx38OY8bfUglgCK4BGAYYCw/s1600/Picture1.gif)
+![Push notification](http://3.bp.blogspot.com/-aLwSLknpKuo/XbcJydQQT4I/AAAAAAAAAm0/LchaxItJjUMSOHcCy91sEx38OY8bfUglgCK4BGAYYCw/s1600/Picture1.gif)
 Nguồn: internet
 
 Tiếp theo chúng ta cùng tìm hiểu 1 chút về lịch sử ra đời của nó.
