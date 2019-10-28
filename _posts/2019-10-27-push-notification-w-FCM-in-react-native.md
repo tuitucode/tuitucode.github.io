@@ -169,13 +169,13 @@ Xong, các bạn build app xem có bị lỗi gì không, không lỗi thì ti�
 **STEP 2** Truy cập [console.firebase.google.com](https://console.firebase.google.com "Firebase Console"), vào 'Cloud Messaging' và ấn vào nút ``Send your first message``
     
 Bạn sẽ được chuyển đến Notification Composer - bộ công cụ soạn Notification của Firebase, ở đây các bạn có thể tạo nhanh 1 notification gồm: Tiêu đề (title), nội dung (text), hình ảnh (image),... Bạn có thể nhìn phần review notification của mình ở bên phải.
-	- Ảnh
+![image show tuitucode]({{site.baseurl}}/http://2.bp.blogspot.com/-hL-NVpMegVA/XbcMe7KZJPI/AAAAAAAAAnA/Eo1Yb4wXjmU2WMHC8_B1yg-p9uROv31nwCK4BGAYYCw/s1600/f2.PNG)
     
 Để push được ngay lúc này, bạn đến phần ``Target`` và chọn đến app của mình
-	- Ảnh
+![target FCM tuitucode]({{site.baseurl}}/http://3.bp.blogspot.com/-OBKqBQxbroo/XbcOQRx0t6I/AAAAAAAAAnU/weVR-odG3Ww-xhmnPHLe7BQBa56y4v9hwCK4BGAYYCw/s1600/f1.PNG)
 
 Những phần khác bạn có thể tìm hiểu tại ĐÂY, còn bây giờ ấn ``Review`` để thấy được tổng quan phần config mà bạn vừa làm
-	- Ảnh
+
 
 Ấn ``Publish``, nếu có thông báo success nhìn đến phần notification sẽ được như thế này
 	- Ảnh
