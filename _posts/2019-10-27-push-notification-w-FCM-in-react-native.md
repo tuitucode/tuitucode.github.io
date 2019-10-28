@@ -175,10 +175,10 @@ Bạn sẽ được chuyển đến Notification Composer - bộ công cụ so�
 ![target FCM tuitucode]({{site.baseurl}}/http://3.bp.blogspot.com/-OBKqBQxbroo/XbcOQRx0t6I/AAAAAAAAAnU/weVR-odG3Ww-xhmnPHLe7BQBa56y4v9hwCK4BGAYYCw/s1600/f1.PNG)
 
 Những phần khác bạn có thể tìm hiểu tại ĐÂY, còn bây giờ ấn ``Review`` để thấy được tổng quan phần config mà bạn vừa làm
-
+![review FCM tuitucode](http://1.bp.blogspot.com/--Y9t77bxw58/XbcO1YGWniI/AAAAAAAAAnk/GG3dEK3pQPwRVCqcBq1wKNhTpNAPoTr7gCK4BGAYYCw/s1600/f1.PNG)
 
 Ấn ``Publish``, nếu có thông báo success nhìn đến phần notification sẽ được như thế này
-	- Ảnh
+![my screenshot](http://2.bp.blogspot.com/-8yK-0Pv9G-I/XbcP5arrU1I/AAAAAAAAAnw/XNSKqwBmKSgBAR8_oXCyqQ0KEzPTiUnPQCK4BGAYYCw/s1600/z1596312399193_95ffe0ee5aecfc73f86dea11871865a0.jpg)
 
 Giống Youtube, Zalo,... các kiểu rồi đó :) Cuối cùng chúng ta sẽ code thêm vài dòng để bắt các sự kiện khi notification được đẩy đến và xử lý nó.
 ##### Bước 2: Bắt sự kiện
