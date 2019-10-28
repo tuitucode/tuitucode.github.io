@@ -157,4 +157,5 @@ Những phần khác bạn có thể tìm hiểu tại ĐÂY, còn bây giờ �
 Ấn ``Publish``, nếu có thông báo success nhìn đến phần notification sẽ được như thế này
 	- Ảnh
 
-Giống như Youtube, Zalo,... các kiểu rồi đó :)
+Giống Youtube, Zalo,... các kiểu rồi đó :) Cuối cùng chúng ta sẽ code thêm vài dòng để bắt các sự kiện khi notification được đẩy đến và xử lý nó.
+##### Bước 2: Bắt sự kiện
