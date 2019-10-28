@@ -80,8 +80,12 @@ Cụ thể hơn, chúng ta có 3 cách làm sau:
 - Cách 1: dùng app server của bạn
 ![app server](https://docs.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging-images/04-topic-messaging.png)
 
+Nguồn: internet
+
 - Cách 2: kết hợp Firebse Function
 ![firebase function](https://miro.medium.com/max/3840/1*xSNuVx9djzjjqMJRu-BK9Q.png)
+
+Nguồn: internet
 
 - Cách 3: dùng Notification Composer
 ![notification composer](http://2.bp.blogspot.com/-hL-NVpMegVA/XbcMe7KZJPI/AAAAAAAAAnA/Eo1Yb4wXjmU2WMHC8_B1yg-p9uROv31nwCK4BGAYYCw/s1600/f2.PNG)
