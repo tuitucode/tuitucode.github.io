@@ -103,7 +103,7 @@ Tổng quan 1 chút: mình sẽ dùng React Native bản 0.6 để code app và 
 - Cài đặt dependencies:
 	- react-native-firebase: xem cách thiết lập tại [ĐÂY](https://rnfirebase.io/docs/v5.x.x/getting-started)
 
-- Tạo và config trên Firebase: xem tại ĐÂY
+- Tạo và config trên Firebase: xem tại ĐÂY(Updating..)
 
 #### Tiến hành
 ##### Bước 1: Cài đặt Firebase Module
