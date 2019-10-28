@@ -143,8 +143,10 @@ Xong, các bạn build app xem có bị lỗi gì không, không lỗi thì ti�
 ``STEP 1`` Mở app và sau đó để ở chế độ Background.
 ``STEP 2`` Truy cập [console.firebase.google.com](https://console.firebase.google.com "Firebase Console"), vào 'Cloud Messaging' và ấn vào nút **Send your first message**
 	- Ảnh
+    
 Bạn sẽ được chuyển đến Notification Composer - bộ công cụ soạn Notification của Firebase, ở đây các bạn có thể tạo nhanh 1 notification gồm: Tiêu đề (title), nội dung (text), hình ảnh (image),... Bạn có thể nhìn phần review notification của mình ở bên phải.
 	- Ảnh
+    
 Để push được ngay lúc này, bạn đến phần **Target** và chọn đến app của mình
 	- Ảnh
 
