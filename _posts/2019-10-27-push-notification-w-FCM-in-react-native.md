@@ -15,6 +15,8 @@ featured: false
 title: Push notification với Firebase Cloud Messaging trong React Native
 ---
 Hi~! Nhân lúc làm app với React Native và Firebase nên trong bài viết này mình sẽ hướng dẫn các bạn cách đẩy thông báo (push notification) sử dụng FCM (Firebase Cloud Messaging) đồng thời cũng giải đáp một số thắc mắc mà mình mắc phải (và mình nghĩ đa số ai cũng sẽ gặp) khi code, nào bắt đầu thôi!
+
+*Note: Đây là 1 bài khá dài
 ### Push notification là gì?
 Push Notification là một dạng tin nhắn đơn giản xuất hiện cùng với thông báo của hệ thống hoặc giống như tin nhắn bật lên -tuỳ thuộc vào nền tảng.
 Định nghĩa khá đơn giản và bạn chắc cũng đã gặp rất nhiều khi sử dụng smartphone, dưới đây là hình ảnh về nó:
