@@ -399,7 +399,7 @@ async requestPermission() {
 ```
 
 2. Hàm bắt sự kiện (hàm ``createNotificationListeners``)
-- Tạo channel ()
+- Tạo channel (kể từ bản Android 8.0 trở lên - API 26 bạn phải dùng channel thì notification mới xuất hiện)
 ```
 const channel = new firebase.notifications.Android.Channel('test-channel', 'Test Channel', firebase.notifications.Android.Importance.Max)
       .setDescription('My apps test channel');
