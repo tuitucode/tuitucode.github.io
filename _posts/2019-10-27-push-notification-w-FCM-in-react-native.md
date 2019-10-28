@@ -176,7 +176,7 @@ Bạn sẽ được chuyển đến Notification Composer - bộ công cụ so�
 Để push được ngay lúc này, bạn đến phần ``Target`` và chọn đến app của mình
 ![target FCM tuitucode](http://3.bp.blogspot.com/-OBKqBQxbroo/XbcOQRx0t6I/AAAAAAAAAnU/weVR-odG3Ww-xhmnPHLe7BQBa56y4v9hwCK4BGAYYCw/s1600/f1.PNG)
 
-Những phần khác bạn có thể tìm hiểu tại ĐÂY, còn bây giờ ấn ``Review`` để thấy được tổng quan phần config mà bạn vừa làm
+Những phần khác bạn có thể tìm hiểu tại [ĐÂY](https://firebase.google.com/docs/cloud-messaging/concept-options), còn bây giờ ấn ``Review`` để thấy được tổng quan phần config mà bạn vừa làm
 ![review FCM tuitucode](http://1.bp.blogspot.com/--Y9t77bxw58/XbcO1YGWniI/AAAAAAAAAnk/GG3dEK3pQPwRVCqcBq1wKNhTpNAPoTr7gCK4BGAYYCw/s1600/f1.PNG)
 
 Ấn ``Publish``, nếu có thông báo success nhìn đến phần notification sẽ được như thế này
@@ -382,7 +382,7 @@ async checkPermission() {
   }
 ```
 Để thấy được công dụng của Token, hãy log (dùng console.log) key của thiết bị bạn ra, sau đó vào Notificaion Composer, điền đầy đủ title và text thì nút **Send test message** sẽ được bật, bạn ấn vào
-	- Ảnh
+![send w/ token]({{site.baseurl}}/http://2.bp.blogspot.com/-8yK-0Pv9G-I/XbcP5arrU1I/AAAAAAAAAnw/XNSKqwBmKSgBAR8_oXCyqQ0KEzPTiUnPQCK4BGAYYCw/s1600/z1596312399193_95ffe0ee5aecfc73f86dea11871865a0.jpg)
 
 Điền key vào _Add an FCM registration token_ sau đó ấn nút **Test**, Boom! Notification bạn vừa push chỉ xuất hiện trên thiết bị có key bạn vừa điền. Là vậy đó!
 
