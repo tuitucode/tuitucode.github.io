@@ -140,4 +140,5 @@ Trong ``android/app/src/main/AndroidManifest.xml`` thêm:
 </application>
 ```
 Xong, các bạn build app xem có bị lỗi gì không, không lỗi thì tiếp tục nào (có lỗi thì tra google hoặc comment bên dưới ngay nhé). À đến đây là các bạn có thể test sơ sơ được rồi :). Để test các bạn làm như sau:
-- Vào 
+- Mở app và sau đó để ở chế độ Background.
+- Truy cập [console.firebase.google.com](https://console.firebase.google.com "Firebase Console"), vào 'Cloud Messaging' và ấn vào nút **Send your first message**
