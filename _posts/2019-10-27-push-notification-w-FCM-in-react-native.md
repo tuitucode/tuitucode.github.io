@@ -140,20 +140,20 @@ Trong ``android/app/src/main/AndroidManifest.xml`` thêm:
 </application>
 ```
 Xong, các bạn build app xem có bị lỗi gì không, không lỗi thì tiếp tục nào (có lỗi thì tra google hoặc comment bên dưới ngay nhé). À đến đây là các bạn có thể test sơ sơ được rồi :). Để test các bạn làm như sau:
-``STEP 1`` Mở app và sau đó để ở chế độ Background.
-``STEP 2`` Truy cập [console.firebase.google.com](https://console.firebase.google.com "Firebase Console"), vào 'Cloud Messaging' và ấn vào nút **Send your first message**
+**STEP 1** Mở app và sau đó để ở chế độ Background.
+**STEP 2** Truy cập [console.firebase.google.com](https://console.firebase.google.com "Firebase Console"), vào 'Cloud Messaging' và ấn vào nút ``Send your first message``
 	- Ảnh
     
 Bạn sẽ được chuyển đến Notification Composer - bộ công cụ soạn Notification của Firebase, ở đây các bạn có thể tạo nhanh 1 notification gồm: Tiêu đề (title), nội dung (text), hình ảnh (image),... Bạn có thể nhìn phần review notification của mình ở bên phải.
 	- Ảnh
     
-Để push được ngay lúc này, bạn đến phần **Target** và chọn đến app của mình
+Để push được ngay lúc này, bạn đến phần ``Target`` và chọn đến app của mình
 	- Ảnh
 
-Những phần khác bạn có thể tìm hiểu tại ĐÂY, còn bây giờ ấn **Review** để thấy được tổng quan phần config mà bạn vừa làm
+Những phần khác bạn có thể tìm hiểu tại ĐÂY, còn bây giờ ấn ``Review`` để thấy được tổng quan phần config mà bạn vừa làm
 	- Ảnh
 
-Ấn **Publish**, nếu có thông báo success nhìn đến phần notification sẽ được như thế này
+Ấn ``Publish``, nếu có thông báo success nhìn đến phần notification sẽ được như thế này
 	- Ảnh
 
 Giống như Youtube, Zalo,... các kiểu rồi đó :)
