@@ -40,7 +40,7 @@ Còn về phía nhà xuất bản ứng dụng:
 - Nhắc nhở người dùng sử dụng ứng dụng cho dù ứng dụng có được mở hoặc không.
 - Quảng cáo, thông báo cho người dùng.
 
-![benefit of notification]({{site.baseurl}}/https://miro.medium.com/max/4358/1*YMFLIMOUrItEIyT4ttLmgA.png)
+![benefit of notification](https://miro.medium.com/max/4358/1*YMFLIMOUrItEIyT4ttLmgA.png)
 
 Đến đây chắc các bạn cũng nắm được push notification là gì rồi đúng không? Vậy tiếp theo chúng ta sẽ dùng FCM để push notification trên Android và iOS, còn vì sao lại dùng FCM? Đương nhiên bạn có nhiều lựa chọn khác như OneSignal nhưng hiện tại mình đang làm app theo phong cách rất 'firebase' nên mình chơi luôn của nó :) Cho bạn này chưa biết về Firebase thì tiếp theo là vài phút quảng cáo...
 ### Firebase là gì?
