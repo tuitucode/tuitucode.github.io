@@ -222,7 +222,7 @@ export default class App extends Component {
       this.getToken();
     } catch (error) {
       // User has rejected permissions
-      console.log('quyền bị hủy');
+      console.log('quyền bị từ chối');
     }
   }
   //Step 3: if has permission -> process get Token
