@@ -384,3 +384,11 @@ const channel = new firebase.notifications.Android.Channel('test-channel', 'Test
     firebase.notifications().android.createChannel(channel);
 ```
 - Hàm bắt sự kiện chính của chúng ta đây: ``firebase.notifications().onNotification``, hàm này bắt sự kiện khi có notification được push đến (và app đang ở trạng thái Foreground) cụ thể ở đây mình cho show alert nội dung notificaion được push đến. Bạn có thể xem tại ĐÂY để biết được các hàm bắt sự kiện khác.
+```
+this.notificationListener = firebase.notifications().onNotification((noti) => {
+      const { title, body } = noti;
+      Alert.alert(title, body);
+    });
+```
+
+Done~! Vậy là chúng ta đã vọc sơ qua FCM và biết cách sử dụng rồi, hãy sử dụng nó theo ý thích của bạn.
