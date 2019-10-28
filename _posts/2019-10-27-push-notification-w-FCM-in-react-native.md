@@ -342,7 +342,21 @@ async checkPermission() {
     }
   }
 ```
-- Nếu quyền được cấp, chúng ta sẽ lấy FCM Token về (như ID của mỗi thiết bị) và lưu vào ``AsyncStorage``. Để thấy được công dụng của Token, hãy log (dùng console.log) key của thiết bị bạn ra, sau đó vào Notificaion Composer, điền đầy đủ title và text thì nút **Send test message** sẽ được bật, bạn ấn vào
+- Nếu quyền được cấp, chúng ta sẽ lấy FCM Token về (như ID của mỗi thiết bị) và lưu vào ``AsyncStorage``. 
+```
+  async getToken() {
+    let fcmToken = await AsyncStorage.getItem('fcmToken');
+    if (!fcmToken) {
+      fcmToken = await firebase.messaging().getToken();
+      console.log('token = ', fcmToken);
+      if (fcmToken) {
+        // user has a device token
+        await AsyncStorage.setItem('fcmToken', fcmToken);
+      }
+    }
+  }
+```
+Để thấy được công dụng của Token, hãy log (dùng console.log) key của thiết bị bạn ra, sau đó vào Notificaion Composer, điền đầy đủ title và text thì nút **Send test message** sẽ được bật, bạn ấn vào
 	- Ảnh
 
 Điền key vào _Add an FCM registration token_ sau đó ấn nút **Test**, Boom! Notification bạn vừa push chỉ xuất hiện trên thiết bị có key bạn vừa điền. Là vậy đó!
