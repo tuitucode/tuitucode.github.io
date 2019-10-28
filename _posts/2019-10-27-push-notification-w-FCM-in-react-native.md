@@ -391,4 +391,4 @@ this.notificationListener = firebase.notifications().onNotification((noti) => {
     });
 ```
 
-Done~! Vậy là chúng ta đã vọc sơ qua FCM và biết cách sử dụng rồi, hãy sử dụng nó theo ý thích của bạn.
+Done~! Vậy là chúng ta đã vọc sơ qua FCM và biết cách sử dụng rồi, hãy sử dụng nó theo ý thích của bạn :)
