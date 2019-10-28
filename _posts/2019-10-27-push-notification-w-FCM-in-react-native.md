@@ -77,9 +77,12 @@ Tổng quan về cách thức hoạt động:
 Nguồn: internet
 
 Cụ thể hơn, chúng ta có 3 cách làm sau:
-	- Ảnh 1
-	- Ảnh 2
-	- Ảnh 3
+- Cách 1: dùng app server của bạn
+![app server](https://docs.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging-images/04-topic-messaging.png)
+
+- Cách 2: kết hợp Firebse Function
+
+- Cách 3: dùng Notification Composer
     
 Trong bài này mình sẽ thực hiện cách thứ 3, cách 1 và 2 có hơi đặc thù hơn nên sẽ được tách ra thành các bài viết khác để dễ theo dõi.
 
