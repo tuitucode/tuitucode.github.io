@@ -361,6 +361,20 @@ async checkPermission() {
 
 Điền key vào _Add an FCM registration token_ sau đó ấn nút **Test**, Boom! Notification bạn vừa push chỉ xuất hiện trên thiết bị có key bạn vừa điền. Là vậy đó!
 
+- Nếu không được cấp quyền thì mình đi xin quyền :)
+```
+async requestPermission() {
+    try {
+      await firebase.messaging().requestPermission();
+      // User has authorised
+      this.getToken();
+    } catch (error) {
+      // User has rejected permissions
+      console.log('quyền bị từ chối');
+    }
+  }
+```
+
 2. Hàm bắt sự kiện (hàm ``createNotificationListeners``)
 - Tạo channel ()
 - Hàm bắt sự kiện chính của chúng ta đây: ``firebase.notifications().onNotification``, hàm này bắt sự kiện khi có notification được push đến (và app đang ở trạng thái Foreground) cụ thể ở đây mình cho show alert nội dung notificaion được push đến. Bạn có thể xem tại ĐÂY để biết được các hàm bắt sự kiện khác.
