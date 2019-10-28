@@ -328,8 +328,25 @@ const styles = StyleSheet.create({
 Việc copy đoạn trên thì đơn giản rồi nên tiếp theo mình sẽ giải thích từng bước config để bắt được sự kiện khi notification được push đến (phần này dành cho những bạn muốn hiểu nhiều hơn là việc copy code, nếu bạn đã hiểu rồi thì xuống phần dưới nhé ;)). Nào, xoắn não thôi!
 
 Dòng config các bạn hình dung như sau:
+
+1. Setup vài thứ (trong hàm ``checkPermission``)
 - Kiểm tra quyền: chúng ta sẽ phải yêu cầu quyền thông báo ứng dụng trong Alert Dialog.
+```
+async checkPermission() {
+    const enabled = await firebase.messaging().hasPermission();
+    if (enabled) {
+      this.getToken();
+    }
+    else {
+      this.requestPermission();
+    }
+  }
+```
 - Nếu quyền được cấp, chúng ta sẽ lấy FCM Token về (như ID của mỗi thiết bị) và lưu vào ``AsyncStorage``. Để thấy được công dụng của Token, hãy log (dùng console.log) key của thiết bị bạn ra, sau đó vào Notificaion Composer, điền đầy đủ title và text thì nút **Send test message** sẽ được bật, bạn ấn vào
 	- Ảnh
 
-Điền key vào _Add an FCM registration token_ sau đó ấn nút **Test**
+Điền key vào _Add an FCM registration token_ sau đó ấn nút **Test**, Boom! Notification bạn vừa push chỉ xuất hiện trên thiết bị có key bạn vừa điền. Là vậy đó!
+
+2. Hàm bắt sự kiện (hàm ``createNotificationListeners``)
+- Tạo channel ()
+- Hàm bắt sự kiện chính của chúng ta đây: ``firebase.notifications().onNotification``, hàm này bắt sự kiện khi có notification được push đến (và app đang ở trạng thái Foreground) cụ thể ở đây mình cho show alert nội dung notificaion được push đến. Bạn có thể xem tại ĐÂY để biết được các hàm bắt sự kiện khác.
