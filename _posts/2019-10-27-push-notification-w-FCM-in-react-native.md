@@ -90,8 +90,6 @@ Nguồn: internet
 - Cách 3: dùng Notification Composer
 ![notification composer](http://2.bp.blogspot.com/-hL-NVpMegVA/XbcMe7KZJPI/AAAAAAAAAnA/Eo1Yb4wXjmU2WMHC8_B1yg-p9uROv31nwCK4BGAYYCw/s1600/f2.PNG)
 
-Nguồn: internet
-
 Trong bài này mình sẽ thực hiện cách thứ 3, cách 1 và 2 có hơi đặc thù hơn nên sẽ được tách ra thành các bài viết khác để dễ theo dõi.
 
 Phew~! Phần lý thuyết đã xong, Giờ hãy bật Editor lên và code thôi!
