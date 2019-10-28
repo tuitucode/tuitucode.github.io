@@ -56,7 +56,7 @@ Nguồn: internet
 
 Với bài viết này chúng ta sẽ cùng vọc Cloud Messaging - nằm trong nhóm Grow, nó là...
 ### Firebase Cloud Messaging
-![Firebase Cloud Messaging]({{site.baseurl}}/https://i.ytimg.com/vi/sioEY4tWmLI/maxresdefault.jpg)
+![Firebase Cloud Messaging](https://i.ytimg.com/vi/sioEY4tWmLI/maxresdefault.jpg)
 
 Nguồn: internet
 
@@ -72,7 +72,7 @@ FCM cung cấp cho chúng ta 3 tính năng chính như sau:
 - Gửi tin nhắn từ app đến server.
 
 Tổng quan về cách thức hoạt động:
-	- Ảnh
+
 
 Cụ thể hơn, chúng ta có 3 cách làm sau:
 	- Ảnh 1
