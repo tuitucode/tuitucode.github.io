@@ -7,7 +7,7 @@ tags:
   - FCM
   - react-native
   - push-notification
-image: assets/images/
+image: assets/images/marvin-meyer-SYTO3xs06fU-unsplash.jpg
 description: >-
   Hướng dẫn push notification trên android bằng FCM (Firebase Cloud Messaging)
   với React Native
