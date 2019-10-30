@@ -387,7 +387,7 @@ async checkPermission() {
 Điền key vào _Add an FCM registration token_ sau đó ấn nút **Test**, Boom! Notification bạn vừa push chỉ xuất hiện trên thiết bị có key bạn vừa điền. Là vậy đó!
 
 - Nếu không được cấp quyền thì mình đi xin quyền :)
-```
+```javascript
 async requestPermission() {
     try {
       await firebase.messaging().requestPermission();
