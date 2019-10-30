@@ -368,7 +368,7 @@ async checkPermission() {
   }
 ```
 - Nếu quyền được cấp, chúng ta sẽ lấy FCM Token về (như ID của mỗi thiết bị) và lưu vào ``AsyncStorage``. 
-```
+```javascript
   async getToken() {
     let fcmToken = await AsyncStorage.getItem('fcmToken');
     if (!fcmToken) {
