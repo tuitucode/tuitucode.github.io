@@ -185,7 +185,7 @@ Những phần khác bạn có thể tìm hiểu tại [ĐÂY](https://firebase.
 Giống Youtube, Zalo,... các kiểu rồi đó :) Cuối cùng chúng ta sẽ code thêm vài dòng để bắt các sự kiện khi notification được đẩy đến và xử lý nó.
 ##### Bước 2: Bắt sự kiện
 Mở file ``App.js`` là sửa thành:
-```
+```javascript
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native
