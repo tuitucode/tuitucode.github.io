@@ -382,7 +382,7 @@ async checkPermission() {
   }
 ```
 Để thấy được công dụng của Token, hãy log (dùng console.log) key của thiết bị bạn ra, sau đó vào Notificaion Composer, điền đầy đủ title và text thì nút **Send test message** sẽ được bật, bạn ấn vào
-![send w/ token](http://2.bp.blogspot.com/-8yK-0Pv9G-I/XbcP5arrU1I/AAAAAAAAAnw/XNSKqwBmKSgBAR8_oXCyqQ0KEzPTiUnPQCK4BGAYYCw/s1600/z1596312399193_95ffe0ee5aecfc73f86dea11871865a0.jpg)
+![send w/ token](http://4.bp.blogspot.com/-1o6cqOBKi-A/XbkD-6UtEMI/AAAAAAAAAog/IaxsPFoTFZIWdnLEUpyBY5zxFDIoYUoBgCK4BGAYYCw/s1600/f4.PNG)
 
 Điền key vào _Add an FCM registration token_ sau đó ấn nút **Test**, Boom! Notification bạn vừa push chỉ xuất hiện trên thiết bị có key bạn vừa điền. Là vậy đó!
 
