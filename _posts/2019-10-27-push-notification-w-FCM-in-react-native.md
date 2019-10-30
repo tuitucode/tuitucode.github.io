@@ -139,7 +139,7 @@ public class MainApplication extends Application implements ReactApplication {
 }
 ```
 Trong ``android/app/src/main/AndroidManifest.xml`` thêm:
-```
+```javascript
 <manifest ...>
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
