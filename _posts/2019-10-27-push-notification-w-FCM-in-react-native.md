@@ -356,7 +356,7 @@ Dòng config các bạn hình dung như sau:
 
 1. Setup vài thứ (trong hàm ``checkPermission``)
 - Kiểm tra quyền: chúng ta sẽ phải yêu cầu quyền thông báo ứng dụng trong Alert Dialog.
-```
+```javascript
 async checkPermission() {
     const enabled = await firebase.messaging().hasPermission();
     if (enabled) {
