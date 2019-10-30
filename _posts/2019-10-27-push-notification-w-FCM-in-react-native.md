@@ -115,7 +115,7 @@ dependencies {
 }
 ```
 Trong ``android/app/src/main/java/com/[app name]/MainApplication.java`` thêm:
-```
+```javascript
 // ...
 import com.facebook.react.ReactApplication; //<- Dòng này
 import io.invertase.firebase.messaging.RNFirebaseMessagingPackage;//<- Dòng này
