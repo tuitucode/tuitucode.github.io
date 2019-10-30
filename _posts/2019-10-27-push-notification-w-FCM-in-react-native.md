@@ -108,7 +108,7 @@ Tổng quan 1 chút: mình sẽ dùng React Native bản 0.6 để code app và 
 #### Tiến hành
 ##### Bước 1: Cài đặt Firebase Module
 Trong ``android/app/build.gradle`` thêm:
-```
+```javascript
 dependencies {
   // ...
   implementation "com.google.firebase:firebase-messaging:20.0.0"
