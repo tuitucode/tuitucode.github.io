@@ -99,4 +99,7 @@ buildscript {
 ```
   itemBuilder: (_, DataSnapshot snapshot, Animation<double> animation, index) {
   }
-``` 
+```
+
+#### Đang cập nhật
+Nếu bạn gặp phải lỗi nào khác hoặc giải quyết được 1 lỗi gì khác thì comment bên dưới để giúp đỡ mọi người nhé :')
