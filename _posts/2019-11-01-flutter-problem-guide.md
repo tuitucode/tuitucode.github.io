@@ -39,10 +39,9 @@ Nếu vẫn chưa khắc phục được, đảm bảo minSdkVersion trong andro
 
 #### #Problem 2
 **Mô tả lỗi:** crash app khi dùng chức năng 'sign in with Google' và vài dòng log lỗi có dạng
-```
- Suppressed: java.lang.NoClassDefFoundError: com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ > Suppressed: java.lang.NoClassDefFoundError: com.google.android.gms.auth.api.signin.internal.SignInHubActivity
  ...
-```
+ 
 **Cách fix:**
 - Đảm bảo minSdkVersion đang ở >= 21 (recommended 23)
 - Trong `android/gradle.properties` thêm:
