@@ -10,6 +10,7 @@ image: null
 description: Giải quyết các vấn đề nảy sinh trong khi code Flutter với Firebase
 featured: false
 title: Flutter Problem Guide
+images: assets/images/halloween.jpg
 ---
 Hi~! Bài viết này hướng dẫn cách khắc phục các lỗi mình gặp khi trải nghiệm Flutter.
 ### Flutter x Firebase
