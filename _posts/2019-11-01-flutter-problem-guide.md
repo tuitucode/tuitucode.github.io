@@ -57,4 +57,7 @@ dependencies {
     classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     classpath 'com.google.gms:google-services:4.2.0'
 }
-``
+```
+*Note: Ở thời điểm hiện tại phiên bản service 4.3.0 trở lên vẫn chưa ổn định, mặc định project được tạo thời điểm viết bài là 4.3.2
+
+- Chạy 2 lệnh cmd lần lượt là `flutter clean` và `flutter pub upgrade`.
