@@ -61,3 +61,7 @@ dependencies {
 *Note: Ở thời điểm hiện tại phiên bản service 4.3.0 trở lên vẫn chưa ổn định, mặc định project được tạo thời điểm viết bài là 4.3.2
 
 - Chạy 2 lệnh cmd lần lượt là `flutter clean` và `flutter pub upgrade`.
+
+#### #Problem 3
+**Mô tả lỗi:** Android dependency 'androidx.core:core' has different version for the compile (1.0.0) and runtime (1.0.1) classpath. You should manually set the same version via DependencyResolution
+**Cách fix:**
