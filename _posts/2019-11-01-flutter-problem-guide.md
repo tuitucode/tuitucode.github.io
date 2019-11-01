@@ -43,3 +43,18 @@ Nếu vẫn chưa khắc phục được, đảm bảo minSdkVersion trong andro
  Suppressed: java.lang.NoClassDefFoundError: com.google.android.gms.auth.api.signin.internal.SignInHubActivity
  ...
 ```
+**Cách fix:**
+- Đảm bảo minSdkVersion đang ở >= 21 (recommended 23)
+- Trong `android/gradle.properties` thêm:
+```
+android.useAndroidX=true
+android.enableJetifier=true
+```
+- Trong `android/build.gradle` đảm bảo 3 dòng sau:
+```
+dependencies {
+    classpath 'com.android.tools.build:gradle:3.2.1'
+    classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    classpath 'com.google.gms:google-services:4.2.0'
+}
+``
