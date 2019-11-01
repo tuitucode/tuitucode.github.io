@@ -6,7 +6,7 @@ categories: tutorial
 tags:
   - Firebase
   - Flutter
-image: null
+image: assets/images/halloween.jpg
 description: Giải quyết các vấn đề nảy sinh trong khi code Flutter với Firebase
 featured: false
 title: Flutter Problem Guide
