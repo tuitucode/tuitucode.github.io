@@ -95,3 +95,9 @@ buildscript {
 #### #Problem 4
 **Mô tả lỗi:** itemBuilder có thêm tham số index, lỗi có dạng:
 > The argument type 'ChatMessage Function(BuildContext, DataSnapshot, Animation<double>)' can't be assigned to the parameter type 'Widget Function(BuildContext, DataSnapshot, Animation<double>, int)'
+  
+**Cách fix:** thêm tham số index vào anonymous function như sau
+```
+  itemBuilder: (_, DataSnapshot snapshot, Animation<double> animation, **index**) {
+  }
+```
