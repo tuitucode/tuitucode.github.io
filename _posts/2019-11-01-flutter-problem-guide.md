@@ -65,3 +65,32 @@ dependencies {
 #### #Problem 3
 **Mô tả lỗi:** Android dependency 'androidx.core:core' has different version for the compile (1.0.0) and runtime (1.0.1) classpath. You should manually set the same version via DependencyResolution
 **Cách fix:**
+Trong `android/build.gradle` thêm:
+```
+buildscript {
+	...
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.1'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath 'com.google.gms:google-services:4.2.0'
+    }
+	
+    //Thêm subprojects này
+    subprojects {
+        project.configurations.all {
+            resolutionStrategy.eachDependency { details ->
+                if (details.requested.group == 'androidx.core'
+                        && !details.requested.name.contains('androidx') ) {
+                    details.useVersion "1.0.1"
+                }
+            }
+        }
+    }
+    ////////
+
+}
+```
+
+#### #Problem 4
+**Mô tả lỗi:** itemBuilder có thêm tham số index, lỗi có dạng:
+> The argument type 'ChatMessage Function(BuildContext, DataSnapshot, Animation<double>)' can't be assigned to the parameter type 'Widget Function(BuildContext, DataSnapshot, Animation<double>, int)'
