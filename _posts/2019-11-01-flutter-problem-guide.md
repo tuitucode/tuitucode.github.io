@@ -11,7 +11,7 @@ description: Giải quyết các vấn đề nảy sinh trong khi code Flutter v
 featured: false
 title: Flutter Problem Guide
 ---
-Hi~! Bài viết này hướng dẫn cách khắc phục các lỗi mình từ gặp khi trải nghiệm Flutter.
+Hi~! Bài viết này hướng dẫn cách khắc phục các lỗi mình gặp khi trải nghiệm Flutter.
 ### Flutter x Firebase
 Các vấn đề xảy ra khi sử dụng FlutterFire
 #### #Problem 1
