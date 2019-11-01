@@ -1,5 +1,15 @@
 ---
-published: false
+published: true
+layout: post
+author: ker
+categories: tutorial
+tags:
+  - Firebase
+  - Flutter
+image: null
+description: Giải quyết các vấn đề nảy sinh trong khi code Flutter với Firebase
+featured: false
+title: Flutter Problem Guide
 ---
 Hi~! Bài viết này hướng dẫn cách khắc phục các lỗi mình từ gặp khi trải nghiệm Flutter.
 ### Flutter x Firebase
@@ -26,4 +36,5 @@ dependencies {
 ```
 
 Nếu vẫn chưa khắc phục được, đảm bảo minSdkVersion trong android/app/build.gradle ở version 21 (mặc định là 16).
+
 
