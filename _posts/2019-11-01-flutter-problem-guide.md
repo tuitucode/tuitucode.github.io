@@ -6,4 +6,24 @@ Hi~! Bài viết này hướng dẫn cách khắc phục các lỗi mình từ g
 Các vấn đề xảy ra khi sử dụng FlutterFire
 #### #Problem 1
 **Mô tả lỗi:** D8: Cannot fit requested classes in a single dex file...
+
 **Cách fix:**
+
+Trong `project/app/build.gradle` thêm:
+```javascript
+defaultConfig {
+    ...
+
+    multiDexEnabled true //<- Dòng này
+}
+...
+
+dependencies {
+    ...
+
+    implementation 'com.android.support:multidex:1.0.3' //<- Dòng này
+}
+```
+
+Nếu vẫn chưa khắc phục được, đảm bảo minSdkVersion trong android/app/build.gradle ở version 21 (mặc định là 16).
+
