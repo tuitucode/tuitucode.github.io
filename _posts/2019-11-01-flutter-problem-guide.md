@@ -15,7 +15,7 @@ Hi~! Bài viết này hướng dẫn cách khắc phục các lỗi mình từ g
 ### Flutter x Firebase
 Các vấn đề xảy ra khi sử dụng FlutterFire
 #### #Problem 1
-**Mô tả lỗi:** D8: Cannot fit requested classes in a single dex file...
+**Mô tả lỗi:** _D8: Cannot fit requested classes in a single dex file..._
 
 **Cách fix:**
 
@@ -63,7 +63,7 @@ dependencies {
 - Chạy 2 lệnh cmd lần lượt là `flutter clean` và `flutter pub upgrade`.
 
 #### #Problem 3
-**Mô tả lỗi:** Android dependency 'androidx.core:core' has different version for the compile (1.0.0) and runtime (1.0.1) classpath. You should manually set the same version via DependencyResolution
+**Mô tả lỗi:** _Android dependency 'androidx.core:core' has different version for the compile (1.0.0) and runtime (1.0.1) classpath. You should manually set the same version via DependencyResolution_
 
 **Cách fix:**
 Trong `android/build.gradle` thêm:
