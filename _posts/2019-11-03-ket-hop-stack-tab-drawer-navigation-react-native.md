@@ -13,6 +13,4 @@ description: >-
   (bottom) và Drawers trong app React Native
 title: 'Kết hợp Stacks, Tabs và Drawers của React Navigation 4.x trong React Native'
 ---
-## A New Post
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+Bonjour! Cùng đi tiếp với series về React Native (vì mình đang 
