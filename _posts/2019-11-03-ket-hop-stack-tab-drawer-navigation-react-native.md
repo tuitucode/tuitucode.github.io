@@ -9,8 +9,9 @@ tags:
   - complex navigation in react-native
 image: assets/images/fcm.jpg
 description: >-
-  Hướng dẫn kết hợp Stacks, Tabs và Drawers của React Navigation 4.x trong React
-  Native
+  Bài viết này hướng dẫn các bạn tạo complex navigation với stacks, tabs
+  (bottom) và Drawers trong app React Native
+title: 'Kết hợp Stacks, Tabs và Drawers của React Navigation 4.x trong React Native'
 ---
 ## A New Post
 
