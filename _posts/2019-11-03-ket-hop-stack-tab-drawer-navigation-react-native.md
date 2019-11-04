@@ -39,3 +39,5 @@ Sau khi cài xong, check dependencies trong `package.json`
   }
 ```
 _*Note: phiên bản có thể khác nhau tùy thuộc vào thời gian._
+
+**Cấu trúc navigation:**
