@@ -178,9 +178,9 @@ const IndexNavigator = createBottomTabNavigator({
       const { routeName } = navigation.state;
       let iconName;
       if (routeName === "Home") {
-        iconName = `md-home`;
+        iconName = `ios-home`;
       } else if (routeName === "List") {
-        iconName = `md-list-box`;
+        iconName = `ios-analytics`;
       }
       return <Ionicons name={iconName} size={25} color={tintColor} />;
     }
