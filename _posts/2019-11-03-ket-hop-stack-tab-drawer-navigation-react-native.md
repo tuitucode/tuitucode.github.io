@@ -40,4 +40,13 @@ Sau khi cài xong, check dependencies trong `package.json`
 ```
 _*Note: phiên bản có thể khác nhau tùy thuộc vào thời gian._
 
-**Cấu trúc navigation:**
+**Cấu trúc navigation:** với app trong bài này, hình dung cấu trúc navigation như sau
+```
+- BottomTab
+	- Home Screen
+	- List Screen
+		- Item Screen
+    	- Drawer
+```
+
+Tạo thư mục `components` chứa các component Home, List, Item:
