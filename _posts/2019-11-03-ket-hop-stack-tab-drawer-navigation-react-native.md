@@ -19,7 +19,7 @@ Mục tiêu là hoàn thành 1 app như video dưới:
 
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/ApEOzbBUh0Q/0.jpg)](http://www.youtube.com/watch?v=ApEOzbBUh0Q)
 
-Để tìm hiểu thêm về React Navigation các bạn tham khảo tại ĐÂY
+Để tìm hiểu thêm về React Navigation các bạn tham khảo tại [ĐÂY](https://reactnavigation.org/docs/en/getting-started.html)
 ### Thông tin phiên bản
 Ở bài hướng dẫn này, mình dùng:
 - React Native bản 0.61
