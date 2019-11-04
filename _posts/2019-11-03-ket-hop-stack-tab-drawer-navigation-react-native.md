@@ -324,3 +324,26 @@ Các bạn làm theo từng bước nhé:
 
 **Bước 1:** run cmd lệnh:
 > react-native link 
+
+**Bước 2:** vào `MainActivity.java` và thêm:
+```javascript
+...
+import com.facebook.react.ReactActivityDelegate; //<- Dòng này
+import com.facebook.react.ReactRootView;//<- Dòng này
+import com.swmansion.gesturehandler.react.RNGestureHandlerEnabledRootView;//<- Dòng này
+
+public class MainActivity extends ReactActivity {
+	...
+    @Override
+    protected ReactActivityDelegate createReactActivityDelegate() {
+        return new ReactActivityDelegate(this, getMainComponentName()) {
+            @Override
+            protected ReactRootView createRootView() {
+                return new RNGestureHandlerEnabledRootView(MainActivity.this);
+      }
+   };
+  } //<- Hàm này
+}
+```
+
+Save rồi run lại xem OK chưa nhé :D
