@@ -50,3 +50,57 @@ _*Note: phiên bản có thể khác nhau tùy thuộc vào thời gian._
 ```
 
 Tạo thư mục `components` chứa các component Home, List, Item:
+- Home.js
+```javascript
+import React, { Component } from 'react';
+import { View, Text } from 'react-native';
+
+export default class Home extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+    };
+  }
+
+  render() {
+    return (
+      <View>
+        <Text> Home Screen </Text>
+      </View>
+    );
+  }
+}
+
+```
+- List.js
+```javascript
+import React, { Component } from 'react';
+import { View, Text, TouchableOpacity } from 'react-native';
+
+export default class List extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+    };
+  }
+
+  _navigate() {
+      //code navigate to Item screen
+  }
+
+  render() {
+    return (
+      <View>
+        <Text> List Screen </Text>
+        <TouchableOpacity
+        onPress={() => {
+            this._navigate();
+        }}>
+            <Text>Navigate to Item screen</Text>
+        </TouchableOpacity>
+      </View>
+    );
+  }
+}
+
+```
