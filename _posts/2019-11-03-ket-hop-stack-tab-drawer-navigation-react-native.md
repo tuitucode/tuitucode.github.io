@@ -55,6 +55,7 @@ _*Note: phiên bản có thể khác nhau tùy thuộc vào thời gian._
 
 Tạo thư mục `components` chứa các component Home, List, Item:
 - Home.js
+
 ```javascript
 import React, { Component } from 'react';
 import { View, Text } from 'react-native';
@@ -75,7 +76,9 @@ export default class Home extends Component {
   }
 }
 ```
+
 - List.js
+
 ```javascript
 import React, { Component } from 'react';
 import { View, Text, TouchableOpacity } from 'react-native';
@@ -106,7 +109,9 @@ export default class List extends Component {
   }
 }
 ```
+
 - Item.js
+
 ```javascript
 import React, { Component } from 'react';
 import { View, Text } from 'react-native';
