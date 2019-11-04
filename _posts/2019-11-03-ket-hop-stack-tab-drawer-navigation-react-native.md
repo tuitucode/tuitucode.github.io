@@ -24,6 +24,7 @@ Mục tiêu là hoàn thành 1 app như video dưới:
 - React Navigation bản 4.x
 
 ### Coding
+#### init - config
 Đầu tiên, tạo app React Native, cmd lệnh quen thuộc:
 > react-native init DemoCompexNavigation
 
