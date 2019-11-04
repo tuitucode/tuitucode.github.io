@@ -27,3 +27,15 @@ Mục tiêu là hoàn thành 1 app như video dưới:
 Đầu tiên, tạo app React Native, cmd lệnh quen thuộc:
 > react-native init DemoCompexNavigation
 
+Tiếp theo, cài `react-navigation`, cmd lệnh:
+> react-native install react-navigation
+
+Sau khi cài xong, check dependencies trong `package.json`
+```
+  "dependencies": {
+    "react": "16.9.0",
+    "react-native": "0.61.3",
+    "react-navigation": "4.0.10"
+  }
+```
+_*Note: phiên bản có thể khác nhau tùy thuộc vào thời gian._
