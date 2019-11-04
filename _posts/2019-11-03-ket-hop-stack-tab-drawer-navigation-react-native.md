@@ -37,6 +37,9 @@ Cài `react-navigation-tabs` để dùng Bottom Navigator:
 Cài `react-navigation-stack` để dùng Stack Navigator:
 > npm i react-navigation-stack --save
 
+Cài `react-navigation-drawer`để dùng Drawer Navigator:
+> npm i react-navigation-stack --save
+
 Cài thêm các package bổ sung:
 > npm i react-native-gesture-handler react-native-reanimated react-native-vector-icons --save
 
