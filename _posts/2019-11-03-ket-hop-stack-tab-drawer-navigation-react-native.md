@@ -74,7 +74,6 @@ export default class Home extends Component {
     );
   }
 }
-
 ```
 - List.js
 ```javascript
