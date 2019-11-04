@@ -17,6 +17,10 @@ Bonjour! Cùng đi tiếp với series về React Native, hôm nay chúng ta s�
 ### Goal - Mục tiêu
 Mục tiêu là hoàn thành 1 app như video dưới:
 
-### Thiết lập
+Để tìm hiểu thêm về React Navigation các bạn tham khảo tại ĐÂY
+### Config - Thiết lập
+Ở bài hướng dẫn này, mình dùng:
+- React Native bản 0.61
+- React Navigation bản 4.x
 
-
+### Coding
