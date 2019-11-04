@@ -315,3 +315,5 @@ export default class Item extends Component {
   }
 }
 ```
+
+Và giờ run lên hồi hộp xem kết quả nào
