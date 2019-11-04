@@ -193,3 +193,5 @@ Trong hàm `_navigate` ở List.js, thêm đoạn code navigate đến Item Scre
       this.props.navigation.navigate('Item');
   }
 ```
+
+Chỉ với hàm trên thì vẫn chưa navigate được vì nó không hiểu Item là thằng nào, vậy nên chúng ta phải dùng StackNavigator để liên kết 2 đứa nó (List và Item). Trong `App.js` thêm:
