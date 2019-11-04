@@ -234,3 +234,7 @@ export default App;
 ```
 Giờ chúng ta đã navigate đến Item Screen được như thế này:
 
+Phần còn lại là Drawer, Tạo liên kết giữa Item và Drawer bằng cách chỉnh sửa `App.js` như sau:
+```javascript
+
+```
