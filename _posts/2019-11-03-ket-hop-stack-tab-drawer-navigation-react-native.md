@@ -35,7 +35,7 @@ Cài `react-navigation-tabs` để dùng Bottom Navigator:
 > npm i react-navigation-tabs --save
 
 Cài thêm các package bổ sung:
-> npm i react-native-gesture-handler react-native-reanimated --save
+> npm i react-native-gesture-handler react-native-reanimated react-native-vector-icons --save
 
 Sau khi cài xong, check dependencies trong `package.json`
 ```
@@ -153,6 +153,7 @@ export {
 
 OK, Giờ là phần code navigation, nhìn phần cấu trúc ở trên mình sẽ cho App container là BottomTabNavigator (để bottom tab bao bọc toàn bộ), mở `App.js` và code như sau:
 ```javascript
+import React from 'react';
 import { createAppContainer } from 'react-navigation';
 import { createBottomTabNavigator } from 'react-navigation-tabs';
 import { Home, List, Item } from './components';
@@ -160,10 +161,22 @@ import { Home, List, Item } from './components';
 const IndexNavigator = createBottomTabNavigator({
   'Home': Home,
   'List': List
+}, {
+  defaultNavigationOptions: ({ navigation }) => ({
+    tabBarIcon: ({ focused, horizontal, tintColor }) => {
+      const { routeName } = navigation.state;
+      let iconName;
+      if (routeName === "Home") {
+        iconName = `md-home`;
+      } else if (routeName === "List") {
+        iconName = `md-list-box`;
+      }
+      return <Ionicons name={iconName} size={25} color={tintColor} />;
+    }
+  })
 });
 
 const App = createAppContainer(IndexNavigator);
 
 export default App;
-
 ```
