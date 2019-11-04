@@ -34,6 +34,9 @@ Tiếp theo, cài `react-navigation`, cmd lệnh:
 Cài `react-navigation-tabs` để dùng Bottom Navigator:
 > npm i react-navigation-tabs --save
 
+Cài `react-navigation-stack` để dùng Stack Navigator:
+> npm i react-navigation-tabs --save
+
 Cài thêm các package bổ sung:
 > npm i react-native-gesture-handler react-native-reanimated react-native-vector-icons --save
 
@@ -195,3 +198,6 @@ Trong hàm `_navigate` ở List.js, thêm đoạn code navigate đến Item Scre
 ```
 
 Chỉ với hàm trên thì vẫn chưa navigate được vì nó không hiểu Item là thằng nào, vậy nên chúng ta phải dùng StackNavigator để liên kết 2 đứa nó (List và Item). Trong `App.js` thêm:
+```javascript
+
+```
