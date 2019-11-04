@@ -17,7 +17,7 @@ Bonjour! Cùng đi tiếp với series về React Native, hôm nay chúng ta s�
 ### Goal - Mục tiêu
 Mục tiêu là hoàn thành 1 app như video dưới:
 
-Để tìm hiểu thêm về React Navigation các bạn tham khảo tại ĐÂY
+Để tìm hiểu thêm về React Navigation các bạn tham khảo tại [ĐÂY](https://reactnavigation.org/docs/en/getting-started.html)
 ### Thông tin phiên bản
 Ở bài hướng dẫn này, mình dùng:
 - React Native bản 0.61
@@ -194,6 +194,8 @@ export default App;
 
 Kết quả run trên máy ảo:
 
+
+
 Tiếp theo, ở màn hình **List Screen** khi ấn vào dòng chữ _Navigate to Item screen_ sẽ chuyển đến màn hình **Item Screen** và cũng ở màn hình này chúng ta có **Drawer**.
 
 Trong hàm `_navigate` ở List.js, thêm đoạn code navigate đến Item Screen:
@@ -227,9 +229,9 @@ const IndexNavigator = createBottomTabNavigator({
       const { routeName } = navigation.state;
       let iconName;
       if (routeName === "Home") {
-        iconName = `md-home`;
+        iconName = `ios-home`;
       } else if (routeName === "List") {
-        iconName = `md-list-box`;
+        iconName = `ios-analytics`;
       }
       return <Ionicons name={iconName} size={25} color={tintColor} />;
     }
