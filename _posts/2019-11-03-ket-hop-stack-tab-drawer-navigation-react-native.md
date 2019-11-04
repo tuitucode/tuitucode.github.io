@@ -31,8 +31,9 @@ Mục tiêu là hoàn thành 1 app như video dưới:
 Tiếp theo, cài `react-navigation`, cmd lệnh:
 > npm i react-navigation --save
 
-cài `react-navigation-tabs` để dùng Bottom Navigator:
+Cài `react-navigation-tabs` để dùng Bottom Navigator:
 > npm i react-navigation-tabs --save
+
 
 Sau khi cài xong, check dependencies trong `package.json`
 ```
