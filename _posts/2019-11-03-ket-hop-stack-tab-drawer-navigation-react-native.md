@@ -317,3 +317,5 @@ export default class Item extends Component {
 ```
 
 Và giờ run lên hồi hộp xem kết quả nào
+
+Trừ phần thẩm mĩ ra thì nó hoạt động đúng theo chúng ta mong muốn nhưng vẫn có gì đó chưa tiện lắm, để tắt Drawer đi thì hiện giờ chúng ta phải ấn nút **Back** của Android - Tại sao ấn ra ngoài vùng màn hình của Drawer nó lại không tắt? và 1 vấn đề nữa là bạn không thể vuốt màn hình từ bên trái sang để mở Drawer đúng không?
