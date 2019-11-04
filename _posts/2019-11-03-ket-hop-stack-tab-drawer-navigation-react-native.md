@@ -288,3 +288,8 @@ const App = createAppContainer(IndexNavigator);
 
 export default App;
 ```
+
+Bạn cứ run xem có lỗi gì không chứ chưa có gì xuất hiện đâu :), tiếp theo là cách để hiện Drawer ra. Mình sẽ tạo button dạng 'hamburger menu' để mở Drawer, trong `Item.js` chỉnh sửa:
+```javascript
+
+```
