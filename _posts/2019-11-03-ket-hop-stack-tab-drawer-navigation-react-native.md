@@ -132,6 +132,7 @@ export default class Item extends Component {
   }
 }
 ```
+
 Và `index.js` để dễ truy xuất components:
 ```javascript
 import { Home } from './Home';
