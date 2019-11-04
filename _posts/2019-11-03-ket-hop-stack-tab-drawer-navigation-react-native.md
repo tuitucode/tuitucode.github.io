@@ -346,4 +346,4 @@ public class MainActivity extends ReactActivity {
 }
 ```
 
-Save rồi run lại xem OK chưa nhé :D Vậy là hoàn thành bài hướng dẫn này rồi, chúc mừng các bạn đã tạo được Complex Navigation trong React Native
+Save rồi run lại xem OK chưa nhé :D Vậy là hoàn thành bài hướng dẫn này rồi, chúc mừng các bạn đã tạo được Complex Navigation trong React Native.
