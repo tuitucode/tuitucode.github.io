@@ -34,6 +34,8 @@ Tiếp theo, cài `react-navigation`, cmd lệnh:
 Cài `react-navigation-tabs` để dùng Bottom Navigator:
 > npm i react-navigation-tabs --save
 
+Cài thêm các package bổ sung:
+> npm i react-native-gesture-handler react-native-reanimated --save
 
 Sau khi cài xong, check dependencies trong `package.json`
 ```
