@@ -139,15 +139,16 @@ export default class Item extends Component {
 
 Và `index.js` để dễ truy xuất components:
 ```javascript
-import { Home } from './Home';
-import { Item } from './Item';
-import { List } from './List';
+import Home from './Home';
+import Item from './Item';
+import List from './List';
 
 export {
     Home,
     Item,
     List
 }
+
 ```
 
 OK, Giờ là phần code navigation, nhìn phần cấu trúc ở trên mình sẽ cho App container là BottomTabNavigator (để bottom tab bao bọc toàn bộ), mở `App.js` và code như sau:
