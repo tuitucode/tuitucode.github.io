@@ -180,3 +180,16 @@ const App = createAppContainer(IndexNavigator);
 
 export default App;
 ```
+
+Kết quả run trên máy ảo:
+
+Tiếp theo, ở màn hình **List Screen** khi ấn vào dòng chữ _Navigate to Item screen_ sẽ chuyển đến màn hình **Item Screen** và cũng ở màn hình này chúng ta có **Drawer**.
+
+Trong hàm `_navigate` ở List.js, thêm đoạn code navigate đến Item Screen:
+```javascript
+  _navigate() {
+      //code navigate to Item screen
+      // Dùng props navigation 
+      this.props.navigation.navigate('Item');
+  }
+```
