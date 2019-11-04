@@ -17,7 +17,9 @@ Bonjour! Cùng đi tiếp với series về React Native, hôm nay chúng ta s�
 ### Goal - Mục tiêu
 Mục tiêu là hoàn thành 1 app như video dưới:
 
-Để tìm hiểu thêm về React Navigation các bạn tham khảo tại [ĐÂY](https://reactnavigation.org/docs/en/getting-started.html)
+{@embed: https://www.youtube.com/watch?v=ApEOzbBUh0Q}
+
+Để tìm hiểu thêm về React Navigation các bạn tham khảo tại ĐÂY
 ### Thông tin phiên bản
 Ở bài hướng dẫn này, mình dùng:
 - React Native bản 0.61
@@ -194,7 +196,7 @@ export default App;
 
 Kết quả run trên máy ảo:
 
-
+![](https://images.viblo.asia/e3f4325e-0237-4af6-9fc1-874f477adec1.gif)
 
 Tiếp theo, ở màn hình **List Screen** khi ấn vào dòng chữ _Navigate to Item screen_ sẽ chuyển đến màn hình **Item Screen** và cũng ở màn hình này chúng ta có **Drawer**.
 
@@ -243,6 +245,8 @@ const App = createAppContainer(IndexNavigator);
 export default App;
 ```
 Giờ chúng ta đã navigate đến Item Screen được như thế này:
+
+![](https://images.viblo.asia/8890f0c9-dd88-4128-9b53-9e087a1a2cc1.gif)
 
 Phần còn lại là Drawer, tạo liên kết giữa Item và Drawer bằng cách chỉnh sửa `App.js` như sau:
 ```javascript
@@ -324,6 +328,8 @@ export default class Item extends Component {
 ```
 
 Và giờ run lên hồi hộp xem kết quả nào
+
+
 
 Trừ phần thẩm mĩ ra thì nó hoạt động đúng theo chúng ta mong muốn nhưng vẫn có gì đó chưa tiện lắm, để tắt Drawer đi thì hiện giờ chúng ta phải ấn nút **Back** của Android - Tại sao ấn ra ngoài vùng màn hình của Drawer nó lại không tắt? và 1 vấn đề nữa là bạn không thể vuốt màn hình từ bên trái sang để mở Drawer đúng không? Đừng lo mình sẽ chỉ cách fix luôn 2 lỗi này :D
 
