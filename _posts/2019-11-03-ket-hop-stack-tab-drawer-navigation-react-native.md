@@ -139,6 +139,7 @@ export {
     List
 }
 ```
+
 OK, Giờ là phần code navigation, nhìn phần cấu trúc ở trên mình sẽ cho App container là BottomTabNavigator (để bottom tab bao bọc toàn bộ), mở `App.js` và code như sau:
 ```javascript
 
