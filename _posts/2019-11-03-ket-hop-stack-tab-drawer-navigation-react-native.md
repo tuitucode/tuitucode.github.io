@@ -28,7 +28,10 @@ Mục tiêu là hoàn thành 1 app như video dưới:
 > react-native init DemoCompexNavigation
 
 Tiếp theo, cài `react-navigation`, cmd lệnh:
-> react-native install react-navigation
+> npm i react-navigation --save
+
+cài `react-navigation-tabs` để dùng Bottom Navigator:
+> npm i react-navigation-tabs --save
 
 Sau khi cài xong, check dependencies trong `package.json`
 ```
@@ -36,6 +39,7 @@ Sau khi cài xong, check dependencies trong `package.json`
     "react": "16.9.0",
     "react-native": "0.61.3",
     "react-navigation": "4.0.10"
+    "react-navigation-tabs": "^2.5.6"
   }
 ```
 _*Note: phiên bản có thể khác nhau tùy thuộc vào thời gian._
