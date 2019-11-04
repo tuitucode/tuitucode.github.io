@@ -49,7 +49,7 @@ _*Note: phiên bản có thể khác nhau tùy thuộc vào thời gian._
 - BottomTab
 	- Home Screen
 	- List Screen
-		- Item Screen
+    	- Item Screen
     	- Drawer
 ```
 
