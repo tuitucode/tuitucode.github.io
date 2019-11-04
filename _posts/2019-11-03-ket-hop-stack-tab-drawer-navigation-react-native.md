@@ -232,3 +232,5 @@ const App = createAppContainer(IndexNavigator);
 
 export default App;
 ```
+Giờ chúng ta đã navigate đến Item Screen được như thế này:
+
