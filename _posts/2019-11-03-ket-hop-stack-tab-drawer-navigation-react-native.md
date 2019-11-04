@@ -289,7 +289,30 @@ const App = createAppContainer(IndexNavigator);
 export default App;
 ```
 
-Bạn cứ run xem có lỗi gì không chứ chưa có gì xuất hiện đâu :), tiếp theo là cách để hiện Drawer ra. Mình sẽ tạo button để mở Drawer, trong `Item.js` thêm:
+Bạn cứ run xem có lỗi gì không chứ chưa có gì xuất hiện đâu :), tiếp theo là cách để hiện Drawer ra. Mình sẽ tạo button để mở Drawer(thường thì sẽ là hamburger menu trên header nhưng do mình lười nên chỉ cho đơn giản là button thôi), trong `Item.js` thêm:
 ```javascript
+import React, { Component } from 'react';
+import { View, Text, Button } from 'react-native';
+
+export default class Item extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+    };
+  }
+
+  render() {
+    return (
+      <View>
+        <Text> Item Screen with Drawer </Text>
+        <Button
+        title='Open Drawer' 
+        onPress={() => {
+            this.props.navigation.openDrawer();
+        }}/>
+      </View>
+    );
+  }
+}
 
 ```
