@@ -17,5 +17,6 @@ Bonjour! Cùng đi tiếp với series về React Native, hôm nay chúng ta s�
 ### Goal - Mục tiêu
 Mục tiêu là hoàn thành 1 app như video dưới:
 
-### Init - Config
+### Thiết lập
+
 
