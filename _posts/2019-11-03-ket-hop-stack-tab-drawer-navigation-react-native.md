@@ -142,5 +142,17 @@ export {
 
 OK, Giờ là phần code navigation, nhìn phần cấu trúc ở trên mình sẽ cho App container là BottomTabNavigator (để bottom tab bao bọc toàn bộ), mở `App.js` và code như sau:
 ```javascript
+import { createAppContainer } from 'react-navigation';
+import { createBottomTabNavigator } from 'react-navigation-tabs';
+import { Home, List, Item } from './components';
+
+const IndexNavigator = createBottomTabNavigator({
+  'Home': Home,
+  'List': List
+});
+
+const App = createAppContainer(IndexNavigator);
+
+export default App;
 
 ```
