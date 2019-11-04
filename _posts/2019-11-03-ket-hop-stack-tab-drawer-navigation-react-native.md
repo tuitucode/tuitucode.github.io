@@ -17,7 +17,7 @@ Bonjour! Cùng đi tiếp với series về React Native, hôm nay chúng ta s�
 ### Goal - Mục tiêu
 Mục tiêu là hoàn thành 1 app như video dưới:
 
-{@embed: https://www.youtube.com/watch?v=ApEOzbBUh0Q}
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/ApEOzbBUh0Q/0.jpg)](http://www.youtube.com/watch?v=ApEOzbBUh0Q)
 
 Để tìm hiểu thêm về React Navigation các bạn tham khảo tại ĐÂY
 ### Thông tin phiên bản
