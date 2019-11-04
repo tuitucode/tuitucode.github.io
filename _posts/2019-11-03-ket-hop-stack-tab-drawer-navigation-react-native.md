@@ -239,5 +239,52 @@ Giờ chúng ta đã navigate đến Item Screen được như thế này:
 
 Phần còn lại là Drawer, Tạo liên kết giữa Item và Drawer bằng cách chỉnh sửa `App.js` như sau:
 ```javascript
+import React from 'react';
+import { View, Text } from 'react-native';
+import Ionicons from 'react-native-vector-icons/Ionicons'
+import { createAppContainer } from 'react-navigation';
+import { createBottomTabNavigator } from 'react-navigation-tabs';
+import { createStackNavigator } from 'react-navigation-stack';
+import { createDrawerNavigator } from 'react-navigation-drawer';
+import { Home, List, Item } from './components';
 
+const TestDrawerItem = (props) => (
+  <View>
+    <Text>
+      Đây là component được hiển thị liên kết dưới dạng link trong Drawer
+    </Text>
+  </View>
+);
+
+const ItemDrawer = createDrawerNavigator({
+  'Item': Item,
+  'Link đến TestDrawerItem function component': TestDrawerItem
+});
+
+const ListItemStack = createStackNavigator({
+  'List': List,
+  'Item': ItemDrawer
+});
+
+const IndexNavigator = createBottomTabNavigator({
+  'Home': Home,
+  'List': ListItemStack
+}, {
+  defaultNavigationOptions: ({ navigation }) => ({
+    tabBarIcon: ({ focused, horizontal, tintColor }) => {
+      const { routeName } = navigation.state;
+      let iconName;
+      if (routeName === "Home") {
+        iconName = `md-home`;
+      } else if (routeName === "List") {
+        iconName = `md-list-box`;
+      }
+      return <Ionicons name={iconName} size={25} color={tintColor} />;
+    }
+  })
+});
+
+const App = createAppContainer(IndexNavigator);
+
+export default App;
 ```
