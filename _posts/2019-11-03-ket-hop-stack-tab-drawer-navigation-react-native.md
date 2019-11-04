@@ -48,7 +48,12 @@ Sau khi cài xong, check dependencies trong `package.json`
   "dependencies": {
     "react": "16.9.0",
     "react-native": "0.61.3",
-    "react-navigation": "4.0.10"
+    "react-native-gesture-handler": "^1.5.0",
+    "react-native-reanimated": "^1.4.0",
+    "react-native-vector-icons": "^6.6.0",
+    "react-navigation": "4.0.10",
+    "react-navigation-drawer": "^2.3.3",
+    "react-navigation-stack": "^1.10.3",
     "react-navigation-tabs": "^2.5.6"
   }
 ```
