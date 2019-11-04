@@ -197,7 +197,38 @@ Trong hàm `_navigate` ở List.js, thêm đoạn code navigate đến Item Scre
   }
 ```
 
-Chỉ với hàm trên thì vẫn chưa navigate được vì nó không hiểu Item là thằng nào, vậy nên chúng ta phải dùng StackNavigator để liên kết 2 đứa nó (List và Item). Trong `App.js` thêm:
+Chỉ với hàm trên thì vẫn chưa navigate được vì nó không hiểu Item là thằng nào, vậy nên chúng ta phải dùng StackNavigator để liên kết 2 đứa nó (List và Item). Trong `App.js` chỉnh sửa:
 ```javascript
+import React from 'react';
+import { createAppContainer } from 'react-navigation';
+import { createBottomTabNavigator } from 'react-navigation-tabs';
+import { createStackNavigator } from 'react-navigation-stack';
+import { Home, List, Item } from './components';
 
+const ListItemStack = createStackNavigator({
+  'List': List,
+  'Item': Item
+});
+
+const IndexNavigator = createBottomTabNavigator({
+  'Home': Home,
+  'List': ListItemStack
+}, {
+  defaultNavigationOptions: ({ navigation }) => ({
+    tabBarIcon: ({ focused, horizontal, tintColor }) => {
+      const { routeName } = navigation.state;
+      let iconName;
+      if (routeName === "Home") {
+        iconName = `md-home`;
+      } else if (routeName === "List") {
+        iconName = `md-list-box`;
+      }
+      return <Ionicons name={iconName} size={25} color={tintColor} />;
+    }
+  })
+});
+
+const App = createAppContainer(IndexNavigator);
+
+export default App;
 ```
