@@ -1,5 +1,14 @@
 ---
-published: false
+published: true
+layout: post
+author: ker
+categories: tutorial
+tags:
+  - note
+  - interview
+image: assets/images/fcm.jpg
+description: Tổng hợp kinh nghiệp phỏng vấn
+title: 'Kinh nghiệm phỏng vấn'
 ---
 Kinh nghiệm phỏng vấn
 ### PHP
