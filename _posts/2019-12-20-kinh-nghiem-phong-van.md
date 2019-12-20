@@ -11,4 +11,4 @@ Kinh nghiệm phỏng vấn
 - GIT/GITHUB là gì?
 - INTERFACE và ABSTRACT khác/ giống ra sao?
 - Mô hình MVC
-- 
+- Ajax là gì?
