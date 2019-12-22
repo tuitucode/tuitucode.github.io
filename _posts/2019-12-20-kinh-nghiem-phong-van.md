@@ -29,6 +29,7 @@ Kinh nghiệm phỏng vấn
 - Mô hình MVC
 > Đã ghi
 - Ajax là gì?
+> AJAX là chữ viết tắt của Asynchronous JavaScript and XML. Nó là một bộ các kỹ thuật thiết kế web giúp cho các ứng dụng web hoạt động bất đồng bộ – xử lý mọi yêu cầu tới server từ phía sau. 
 - Object, Class và Instance khác nhau như thế nào?
 > Một bản thiết kế chi tiết cho ngôi nhà giống như là mô tả một class. Tất cả những ngôi nhà được xây dựng dựa trên bản thiết kế đó là những object của class. Một ngôi nhà cụ thể là một instance.
 - Có mấy loại Join bảng?
