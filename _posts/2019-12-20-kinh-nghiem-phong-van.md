@@ -24,3 +24,4 @@ Kinh nghiệm phỏng vấn
 - Object, Class và Instance khác nhau như thế nào?
 - Có mấy loại Join bảng?
 - Mô tả quá trình từ khi nhập URL vào thanh trình duyệt đến load trang web hoàn chỉnh.
+- Giải thuật: Sort và Search
