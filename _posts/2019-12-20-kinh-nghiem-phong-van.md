@@ -29,6 +29,7 @@ Kinh nghiệm phỏng vấn
 > Đã ghi
 - Ajax là gì?
 - Object, Class và Instance khác nhau như thế nào?
+> Một bản thiết kế chi tiết cho ngôi nhà giống như là mô tả một class. Tất cả những ngôi nhà được xây dựng dựa trên bản thiết kế đó là những object của class. Một ngôi nhà cụ thể là một instance.
 - Có mấy loại Join bảng?
 - Mô tả quá trình từ khi nhập URL vào thanh trình duyệt đến load trang web hoàn chỉnh.
 - Giải thuật: Sort và Search
