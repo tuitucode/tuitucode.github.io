@@ -30,7 +30,7 @@ Kinh nghiệm phỏng vấn
 - Khác nhau giữa DECLARE và DEFINE?
 - Phân biệt static::method() với self::method()
 - Magic Method? 
- **TL:** [Magic Methods](https://dzone.com/articles/9-magic-methods-php-0)
+ **TL:** [Magic Methods](https://dzone.com/articles/9-magic-methods-php-0), Chủ yếu là constructor, destructor và get/set...
 
 ### Các Design Pattern
 - Singleton Pattern
