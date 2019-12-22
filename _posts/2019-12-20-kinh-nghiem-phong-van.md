@@ -37,6 +37,7 @@ GITHUB là dịch vụ lưu trữ trên web dành cho các dự án có sử d�
 - Có mấy loại Join bảng?
 
 - Mô tả quá trình từ khi nhập URL vào thanh trình duyệt đến load trang web hoàn chỉnh.
+> Đã ghi
 - Giải thuật: Sort và Search
 - Khác nhau giữa DECLARE và DEFINE?
 > Đã ghi
