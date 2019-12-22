@@ -35,7 +35,7 @@ Kinh nghiệm phỏng vấn
 - Magic Method? 
 > **TL:** [Magic Methods](https://dzone.com/articles/9-magic-methods-php-0), Chủ yếu là constructor, destructor và get/set...
 - Trait trong PHP
-> **TL:** [Trait](https://viblo.asia/p/lap-trinh-huong-doi-tuong-voi-php-va-nhung-dieu-can-biet-phan-2-Eb85oXq0K2G)
+> **TL:** [Trait](https://viblo.asia/p/lap-trinh-huong-doi-tuong-voi-php-va-nhung-dieu-can-biet-phan-2-Eb85oXq0K2G), có thể có thuộc tính lẫn phương thức
 - RESTful API
 - Transaction và Trigger trong SQL
 ### Các Design Pattern
