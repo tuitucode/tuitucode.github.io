@@ -24,6 +24,7 @@ Kinh nghiệm phỏng vấn
 - PHP có đa kế thừa không? 
 > Không, dùng Traits và Interface
 - GIT/GITHUB là gì?
+> GIT là hệ thống quản lý phiên bản phân tán, hỗ trợ quản lý code và lịch sử thay đổi
 - INTERFACE và ABSTRACT khác/ giống ra sao?
 > Đã ghi
 - Mô hình MVC
