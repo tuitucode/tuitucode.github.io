@@ -29,6 +29,7 @@ TL: Không, dùng Traits và Interface
 - Giải thuật: Sort và Search
 - Khác nhau giữa DECLARE và DEFINE?
 - Phân biệt static::method() với self::method()
+
 ### Các Design Pattern
 - Singleton Pattern
 - MVC Pattern
