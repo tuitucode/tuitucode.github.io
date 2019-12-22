@@ -12,11 +12,13 @@ title: Kinh nghiệm phỏng vấn
 ---
 Kinh nghiệm phỏng vấn
 ### PHP
-- Constructor có modifier là?
+- Constructor có modifier là? 
+TL: Public
 - POST và GET khác nhau? Dữ liệu gửi lên có mã khóa không?
 - COOKIE và SESSION tại sao phải dùng cả 2?
 - Đặc tính OOP
-- PHP có đa kế thừa không? TL: Không, dùng Traits và Interface
+- PHP có đa kế thừa không? 
+TL: Không, dùng Traits và Interface
 - GIT/GITHUB là gì?
 - INTERFACE và ABSTRACT khác/ giống ra sao?
 - Mô hình MVC
