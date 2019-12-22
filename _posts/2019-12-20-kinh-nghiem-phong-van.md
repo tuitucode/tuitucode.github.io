@@ -37,6 +37,7 @@ Kinh nghiệm phỏng vấn
 - Trait trong PHP
 > **TL:** [Trait](https://viblo.asia/p/lap-trinh-huong-doi-tuong-voi-php-va-nhung-dieu-can-biet-phan-2-Eb85oXq0K2G)
 - RESTful API
+- Transaction và Trigger trong SQL
 ### Các Design Pattern
 - Singleton Pattern
 - MVC Pattern
