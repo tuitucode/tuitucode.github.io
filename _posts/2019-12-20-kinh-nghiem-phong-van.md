@@ -17,6 +17,8 @@ Kinh nghiệm phỏng vấn
 - POST và GET khác nhau? Dữ liệu gửi lên có mã khóa không?
 > **TL:** Mã hóa bằng giản đồ URL Endcoding.
 - COOKIE và SESSION tại sao phải dùng cả 2?
+> **TL:** Session lưu trên Server, để Server biết Session của Client nào thì cũng đồng thời tạo Cookie tương ứng với Session đó -> Lưu toàn bộ trên Session dẫn đến nặng.
+
 - Đặc tính OOP
 > 4 Đặc tính: Kế thừa, đa hình, trừu tượng, đóng gói
 - PHP có đa kế thừa không? 
