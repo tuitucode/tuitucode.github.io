@@ -17,6 +17,7 @@ Kinh nghiệm phỏng vấn
 - POST và GET khác nhau? Dữ liệu gửi lên có mã khóa không?
 - COOKIE và SESSION tại sao phải dùng cả 2?
 - Đặc tính OOP
+> 4 Đặc tính: Kế thừa, đa hình, trừu tượng, đóng gói
 - PHP có đa kế thừa không? 
 > **TL:** Không, dùng Traits và Interface
 - GIT/GITHUB là gì?
