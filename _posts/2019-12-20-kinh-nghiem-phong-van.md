@@ -15,7 +15,7 @@ Kinh nghiệm phỏng vấn
 - Constructor có modifier là? 
 > **TL:** Public
 - POST và GET khác nhau? Dữ liệu gửi lên có mã khóa không?
-> Mã hóa bằng giản đồ URL Endcoding.
+> **TL:** Mã hóa bằng giản đồ URL Endcoding.
 - COOKIE và SESSION tại sao phải dùng cả 2?
 - Đặc tính OOP
 > 4 Đặc tính: Kế thừa, đa hình, trừu tượng, đóng gói
