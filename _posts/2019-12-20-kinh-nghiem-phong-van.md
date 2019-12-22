@@ -29,6 +29,8 @@ Kinh nghiệm phỏng vấn
 - Giải thuật: Sort và Search
 - Khác nhau giữa DECLARE và DEFINE?
 - Phân biệt static::method() với self::method()
+- Magic Method? 
+ **TL:** [Magic Methods](https://dzone.com/articles/9-magic-methods-php-0)
 
 ### Các Design Pattern
 - Singleton Pattern
