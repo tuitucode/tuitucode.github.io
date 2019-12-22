@@ -16,6 +16,7 @@ Kinh nghiệm phỏng vấn
 > **TL:** Public
 - POST và GET khác nhau? Dữ liệu gửi lên có mã khóa không?
 > **TL:** Mã hóa bằng giản đồ URL Endcoding.
+[Chi tiết So sánh](https://viblo.asia/p/phuong-thuc-get-va-post-aWj53VBYl6m)
 - COOKIE và SESSION tại sao phải dùng cả 2?
 > **TL:** Session lưu trên Server, để Server biết Session của Client nào thì cũng đồng thời tạo Cookie tương ứng với Session đó -> Lưu toàn bộ trên Session dẫn đến nặng.
 - Đặc tính OOP
