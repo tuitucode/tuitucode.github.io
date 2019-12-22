@@ -18,7 +18,7 @@ Kinh nghiệm phỏng vấn
 - COOKIE và SESSION tại sao phải dùng cả 2?
 - Đặc tính OOP
 - PHP có đa kế thừa không? 
- 		**TL:** Không, dùng Traits và Interface
+> **TL:** Không, dùng Traits và Interface
 - GIT/GITHUB là gì?
 - INTERFACE và ABSTRACT khác/ giống ra sao?
 - Mô hình MVC
