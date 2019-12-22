@@ -25,6 +25,7 @@ Kinh nghiệm phỏng vấn
 > Không, dùng Traits và Interface
 - GIT/GITHUB là gì?
 > GIT là hệ thống quản lý phiên bản phân tán, hỗ trợ quản lý code và lịch sử thay đổi
+GITHUB là dịch vụ lưu trữ trên web dành cho các dự án có sử dụng hệ thống kei6m3 soát Git revision
 - INTERFACE và ABSTRACT khác/ giống ra sao?
 > Đã ghi
 - Mô hình MVC
