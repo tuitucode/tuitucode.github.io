@@ -24,6 +24,7 @@ Kinh nghiệm phỏng vấn
 > **TL:** Không, dùng Traits và Interface
 - GIT/GITHUB là gì?
 - INTERFACE và ABSTRACT khác/ giống ra sao?
+> Đã ghi
 - Mô hình MVC
 - Ajax là gì?
 - Object, Class và Instance khác nhau như thế nào?
