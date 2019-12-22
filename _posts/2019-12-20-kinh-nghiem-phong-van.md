@@ -26,6 +26,7 @@ Kinh nghiệm phỏng vấn
 - INTERFACE và ABSTRACT khác/ giống ra sao?
 > Đã ghi
 - Mô hình MVC
+> Đã ghi
 - Ajax là gì?
 - Object, Class và Instance khác nhau như thế nào?
 - Có mấy loại Join bảng?
