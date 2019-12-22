@@ -29,6 +29,7 @@ Kinh nghiệm phỏng vấn
 - Giải thuật: Sort và Search
 - Khác nhau giữa DECLARE và DEFINE?
 - Phân biệt static::method() với self::method()
+ **TL:** `static` gọi phương thức tĩnh ở lớp hiện tại trong khi `selt` gọi phương thức ở lớp cha (nếu có và cho dù lớp con cũng có)
 - Magic Method? 
  **TL:** [Magic Methods](https://dzone.com/articles/9-magic-methods-php-0), Chủ yếu là constructor, destructor và get/set...
 
