@@ -28,3 +28,4 @@ TL: Không, dùng Traits và Interface
 - Mô tả quá trình từ khi nhập URL vào thanh trình duyệt đến load trang web hoàn chỉnh.
 - Giải thuật: Sort và Search
 - Khác nhau giữa DECLARE và DEFINE?
+- Phân biệt static::method() với self::method()
