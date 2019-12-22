@@ -18,7 +18,6 @@ Kinh nghiệm phỏng vấn
 > **TL:** Mã hóa bằng giản đồ URL Endcoding.
 - COOKIE và SESSION tại sao phải dùng cả 2?
 > **TL:** Session lưu trên Server, để Server biết Session của Client nào thì cũng đồng thời tạo Cookie tương ứng với Session đó -> Lưu toàn bộ trên Session dẫn đến nặng.
-
 - Đặc tính OOP
 > 4 Đặc tính: Kế thừa, đa hình, trừu tượng, đóng gói
 - PHP có đa kế thừa không? 
@@ -39,6 +38,7 @@ Kinh nghiệm phỏng vấn
 - Trait trong PHP
 > **TL:** [Trait](https://viblo.asia/p/lap-trinh-huong-doi-tuong-voi-php-va-nhung-dieu-can-biet-phan-2-Eb85oXq0K2G), có thể có thuộc tính lẫn phương thức
 - RESTful API
+> RESTful API là một tiêu chuẩn dùng trong việc thết kế các thiết kế API cho các ứng dụng web để quản lý các resource. RESTful là một trong những kiểu thiết kế API được sử dụng phổ biến nhất ngày nay.
 - Transaction và Trigger trong SQL
 ### Các Design Pattern
 - Singleton Pattern
