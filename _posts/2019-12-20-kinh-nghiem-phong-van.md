@@ -53,6 +53,9 @@ FULL OUTER: lấy hết
 - RESTful API
 > RESTful API là một tiêu chuẩn dùng trong việc thết kế các thiết kế API cho các ứng dụng web để quản lý các resource. RESTful là một trong những kiểu thiết kế API được sử dụng phổ biến nhất ngày nay.
 - Transaction và Trigger trong SQL
+> Trans: [Trans](https://viblo.asia/p/cac-lenh-xu-ly-transaction-trong-sql-Do754kaelM6)
+, Trigger: Hiểu đơn giản thì Trigger là một stored procedure không có tham số. Trigger thực thi một cách tự động khi một trong ba câu lệnh Insert, Update, Delete làm thay đổi dữ liệu trên bảng có chứa trigger. 
+
 ### Các Design Pattern
 - Singleton Pattern
 - MVC Pattern
