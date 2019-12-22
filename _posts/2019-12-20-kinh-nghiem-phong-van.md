@@ -13,7 +13,7 @@ title: Kinh nghiệm phỏng vấn
 Kinh nghiệm phỏng vấn
 ### PHP
 - Constructor có modifier là? 
- 		**TL:** Public
+> **TL:** Public
 - POST và GET khác nhau? Dữ liệu gửi lên có mã khóa không?
 - COOKIE và SESSION tại sao phải dùng cả 2?
 - Đặc tính OOP
@@ -29,9 +29,9 @@ Kinh nghiệm phỏng vấn
 - Giải thuật: Sort và Search
 - Khác nhau giữa DECLARE và DEFINE?
 - Phân biệt static::method() với self::method()
- 		**TL:** `static` gọi phương thức tĩnh ở lớp hiện tại trong khi `selt` gọi phương thức ở lớp cha (nếu có và cho dù lớp con cũng có)
+> **TL:** `static` gọi phương thức tĩnh ở lớp hiện tại trong khi `selt` gọi phương thức ở lớp cha (nếu có và cho dù lớp con cũng có)
 - Magic Method? 
- 		**TL:** [Magic Methods](https://dzone.com/articles/9-magic-methods-php-0), Chủ yếu là constructor, destructor và get/set...
+> **TL:** [Magic Methods](https://dzone.com/articles/9-magic-methods-php-0), Chủ yếu là constructor, destructor và get/set...
 
 ### Các Design Pattern
 - Singleton Pattern
