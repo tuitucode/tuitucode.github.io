@@ -37,11 +37,11 @@ Kinh nghiệm phỏng vấn
 - Giải thuật: Sort và Search
 - Khác nhau giữa DECLARE và DEFINE?
 - Phân biệt static::method() với self::method()
-> **TL:** `static` gọi phương thức tĩnh ở lớp hiện tại trong khi `selt` gọi phương thức ở lớp cha (nếu có và cho dù lớp con cũng có)
+> `static` gọi phương thức tĩnh ở lớp hiện tại trong khi `selt` gọi phương thức ở lớp cha (nếu có và cho dù lớp con cũng có)
 - Magic Method? 
-> **TL:** [Magic Methods](https://dzone.com/articles/9-magic-methods-php-0), Chủ yếu là constructor, destructor và get/set...
+> [Magic Methods](https://dzone.com/articles/9-magic-methods-php-0), Chủ yếu là constructor, destructor và get/set...
 - Trait trong PHP
-> **TL:** [Trait](https://viblo.asia/p/lap-trinh-huong-doi-tuong-voi-php-va-nhung-dieu-can-biet-phan-2-Eb85oXq0K2G), có thể có thuộc tính lẫn phương thức
+> [Trait](https://viblo.asia/p/lap-trinh-huong-doi-tuong-voi-php-va-nhung-dieu-can-biet-phan-2-Eb85oXq0K2G), có thể có thuộc tính lẫn phương thức
 - RESTful API
 > RESTful API là một tiêu chuẩn dùng trong việc thết kế các thiết kế API cho các ứng dụng web để quản lý các resource. RESTful là một trong những kiểu thiết kế API được sử dụng phổ biến nhất ngày nay.
 - Transaction và Trigger trong SQL
