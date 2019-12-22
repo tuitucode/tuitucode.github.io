@@ -8,7 +8,7 @@ tags:
   - interview
 image: assets/images/fcm.jpg
 description: Tổng hợp kinh nghiệp phỏng vấn
-title: 'Kinh nghiệm phỏng vấn'
+title: Kinh nghiệm phỏng vấn
 ---
 Kinh nghiệm phỏng vấn
 ### PHP
@@ -21,3 +21,5 @@ Kinh nghiệm phỏng vấn
 - INTERFACE và ABSTRACT khác/ giống ra sao?
 - Mô hình MVC
 - Ajax là gì?
+- Object, Class và Instance khác nhau như thế nào?
+- Có mấy loại Join bảng?
