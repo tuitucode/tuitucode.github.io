@@ -16,7 +16,7 @@ Kinh nghiệm phỏng vấn
 - POST và GET khác nhau? Dữ liệu gửi lên có mã khóa không?
 - COOKIE và SESSION tại sao phải dùng cả 2?
 - Đặc tính OOP
-- PHP có đa kế thừa không?
+- PHP có đa kế thừa không? TL: Không, dùng Traits và Interface
 - GIT/GITHUB là gì?
 - INTERFACE và ABSTRACT khác/ giống ra sao?
 - Mô hình MVC
@@ -25,3 +25,4 @@ Kinh nghiệm phỏng vấn
 - Có mấy loại Join bảng?
 - Mô tả quá trình từ khi nhập URL vào thanh trình duyệt đến load trang web hoàn chỉnh.
 - Giải thuật: Sort và Search
+- Khác nhau giữa DECLARE và DEFINE?
