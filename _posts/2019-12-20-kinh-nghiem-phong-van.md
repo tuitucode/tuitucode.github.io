@@ -36,6 +36,7 @@ Kinh nghiệm phỏng vấn
 > **TL:** [Magic Methods](https://dzone.com/articles/9-magic-methods-php-0), Chủ yếu là constructor, destructor và get/set...
 - Trait trong PHP
 > **TL:** [Trait](https://viblo.asia/p/lap-trinh-huong-doi-tuong-voi-php-va-nhung-dieu-can-biet-phan-2-Eb85oXq0K2G)
+
 ### Các Design Pattern
 - Singleton Pattern
 - MVC Pattern
