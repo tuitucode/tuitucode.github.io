@@ -35,7 +35,9 @@ GITHUB là dịch vụ lưu trữ trên web dành cho các dự án có sử d�
 - Object, Class và Instance khác nhau như thế nào?
 > Một bản thiết kế chi tiết cho ngôi nhà giống như là mô tả một class. Tất cả những ngôi nhà được xây dựng dựa trên bản thiết kế đó là những object của class. Một ngôi nhà cụ thể là một instance.
 - Có mấy loại Join bảng?
-
+> INNER: Phép giao = lấy phần chung,
+OUTER: LEFT: lấy phần trái và phần hơp bên phải, RIGHT ngược lại
+FULL OUTER: lấy hết
 - Mô tả quá trình từ khi nhập URL vào thanh trình duyệt đến load trang web hoàn chỉnh.
 > Đã ghi
 - Giải thuật: Sort và Search
