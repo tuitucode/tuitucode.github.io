@@ -35,9 +35,11 @@ GITHUB là dịch vụ lưu trữ trên web dành cho các dự án có sử d�
 - Object, Class và Instance khác nhau như thế nào?
 > Một bản thiết kế chi tiết cho ngôi nhà giống như là mô tả một class. Tất cả những ngôi nhà được xây dựng dựa trên bản thiết kế đó là những object của class. Một ngôi nhà cụ thể là một instance.
 - Có mấy loại Join bảng?
+
 - Mô tả quá trình từ khi nhập URL vào thanh trình duyệt đến load trang web hoàn chỉnh.
 - Giải thuật: Sort và Search
 - Khác nhau giữa DECLARE và DEFINE?
+> Đã ghi
 - Phân biệt static::method() với self::method()
 > `static` gọi phương thức tĩnh ở lớp hiện tại trong khi `selt` gọi phương thức ở lớp cha (nếu có và cho dù lớp con cũng có)
 - Magic Method? 
